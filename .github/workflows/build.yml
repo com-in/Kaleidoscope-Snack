@@ -26,50 +26,28 @@ jobs:
       - name: Make Gradle executable
         run: chmod +x gradlew
 
-      - name: Build Mod
+      - name: Build
         run: ./gradlew build --no-daemon
-
-      - name: Inject Recipes
-        shell: bash
-        run: |
-          set -e
-
-          JAR=$(find build/libs -maxdepth 1 -type f -name "*.jar" ! -name "*-sources.jar" | head -n 1)
-
-          if [ -z "$JAR" ]; then
-            echo "找不到构建出来的 JAR"
-            exit 1
-          fi
-
-          echo "目标 JAR: $JAR"
-
-          mkdir -p /tmp/modjar
-
-          cd /tmp/modjar
-          jar xf "$GITHUB_WORKSPACE/$JAR"
-
-          mkdir -p data/kaleidoscope_snack/recipes
-
-          cp "$GITHUB_WORKSPACE"/recipes/*.json \
-             data/kaleidoscope_snack/recipes/
-
-          cd /tmp/modjar
-
-          rm "$GITHUB_WORKSPACE/$JAR"
-
-          jar cf "$GITHUB_WORKSPACE/$JAR" .
-
-          echo "配方已注入："
-          find data/kaleidoscope_snack/recipes -type f
 
       - name: Verify Recipes
         shell: bash
         run: |
+          echo "检查构建产物中的配方..."
+
           JAR=$(find build/libs -maxdepth 1 -type f -name "*.jar" ! -name "*-sources.jar" | head -n 1)
 
-          echo "检查 JAR：$JAR"
+          if [ -z "$JAR" ]; then
+            echo "错误：找不到 JAR"
+            exit 1
+          fi
 
-          jar tf "$JAR" | grep "data/kaleidoscope_snack/recipes/"
+          echo "JAR: $JAR"
+
+          echo "配方文件："
+          jar tf "$JAR" | grep "data/kaleidoscope_snack/recipes/" || {
+            echo "错误：JAR 中没有找到配方！"
+            exit 1
+          }
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
