@@ -1,0 +1,79 @@
+name: Build Mod
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build Mod
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+          cache: gradle
+
+      - name: Make Gradle executable
+        run: chmod +x gradlew
+
+      - name: Build Mod
+        run: ./gradlew build --no-daemon
+
+      - name: Inject Recipes
+        shell: bash
+        run: |
+          set -e
+
+          JAR=$(find build/libs -maxdepth 1 -type f -name "*.jar" ! -name "*-sources.jar" | head -n 1)
+
+          if [ -z "$JAR" ]; then
+            echo "找不到构建出来的 JAR"
+            exit 1
+          fi
+
+          echo "目标 JAR: $JAR"
+
+          mkdir -p /tmp/modjar
+
+          cd /tmp/modjar
+          jar xf "$GITHUB_WORKSPACE/$JAR"
+
+          mkdir -p data/kaleidoscope_snack/recipes
+
+          cp "$GITHUB_WORKSPACE"/recipes/*.json \
+             data/kaleidoscope_snack/recipes/
+
+          cd /tmp/modjar
+
+          rm "$GITHUB_WORKSPACE/$JAR"
+
+          jar cf "$GITHUB_WORKSPACE/$JAR" .
+
+          echo "配方已注入："
+          find data/kaleidoscope_snack/recipes -type f
+
+      - name: Verify Recipes
+        shell: bash
+        run: |
+          JAR=$(find build/libs -maxdepth 1 -type f -name "*.jar" ! -name "*-sources.jar" | head -n 1)
+
+          echo "检查 JAR：$JAR"
+
+          jar tf "$JAR" | grep "data/kaleidoscope_snack/recipes/"
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: kaleidoscope_snack
+          path: build/libs/*.jar
+          if-no-files-found: error

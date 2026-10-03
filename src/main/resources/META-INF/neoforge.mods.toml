@@ -4,11 +4,11 @@ license="Not specified"
 
 [[mods]]
 modId="kaleidoscope_snack"
-version="1.0.0"
+version="0.1.2"
 displayName="\u68EE\u7F57\u7269\u8BED\uFF1A\u5C0F\u5403"
-displayURL="https://mcreator.net"
+displayURL="https://github.com/com-in/Kaleidoscope-Snack"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="MCreator"
+authors="Ctoy"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
