@@ -1,0 +1,11 @@
+[23:11:28] [INIT] KubeJS 2101.7.2-build.321; MC 2101 NeoForge
+[23:11:28] [INIT] Loaded plugins:
+[23:11:28] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[23:11:28] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[23:11:28] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[23:11:28] [INIT] - com.github.ysbbbbbb.kaleidoscopecookery.compat.kubejs.ModKubeJSPlugin
+[23:11:28] [INFO] startup_scripts:main.js#2: Hello, World! (Loaded startup example script)
+[23:11:28] [INFO] Loaded script startup_scripts:main.js in 0.061 s
+[23:11:28] [INFO] Loaded 1/1 KubeJS startup scripts in 0.552 s with 0 errors and 0 warnings
+[23:11:28] [INFO] Validated 2 files in kubejs/assets/ in 4ms
+[23:11:28] [INFO] Validated 0 files in kubejs/data/ in 0ms

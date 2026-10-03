@@ -1,0 +1,33 @@
+{
+  "workspacePanelIconSize": "TILES",
+  "workspacePanelSortType": "CREATED",
+  "workspacePanelSortAscending": true,
+  "projectBrowserState": {
+    "expandedPaths": [
+      "[, 森罗物语：小吃]",
+      "[, 森罗物语：小吃, Resources (Gradle)]",
+      "[, 森罗物语：小吃, Resources (Gradle), E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets]",
+      "[, 森罗物语：小吃, Resources (Gradle), E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack]",
+      "[, 森罗物语：小吃, Resources (Gradle), E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack\\models]",
+      "[, 森罗物语：小吃, Resources (Gradle), E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack\\models, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack\\models\\item]",
+      "[, 森罗物语：小吃, Resources (Gradle), E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack\\textures]",
+      "[, 森罗物语：小吃, Resources (Gradle), E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack\\textures, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack\\textures\\item]"
+    ]
+  },
+  "leftDockState": {
+    "dockSizes": {
+      "project_browser": 280,
+      "local_history": 280
+    }
+  },
+  "rightDockState": {
+    "dockSizes": {}
+  },
+  "bottomDockState": {
+    "dockSizes": {
+      "console": 300,
+      "code_viewer": 300,
+      "debugger": 300
+    }
+  }
+}

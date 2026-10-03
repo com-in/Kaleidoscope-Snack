@@ -1,0 +1,271 @@
+{
+  "mod_elements": [
+    {
+      "name": "Jianbing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pancake",
+      "metadata": {
+        "files": [
+          "src/main/java/kaleidoscopesnack/item/JianbingItem.java",
+          "src/main/resources/assets/kaleidoscope_snack/models/item/pancake.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "KaleidoscopeSnack",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kaleidoscope_snack",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Squid",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_squid",
+      "metadata": {
+        "files": [
+          "src/main/java/kaleidoscopesnack/item/SquidItem.java",
+          "src/main/resources/assets/kaleidoscope_snack/models/item/raw_squid.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "GetSquid",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_squid",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/kaleidoscopesnack/procedures/GetSquidProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "GrilledSquid",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grilled_squid",
+      "metadata": {
+        "files": [
+          "src/main/java/kaleidoscopesnack/item/GrilledSquidItem.java",
+          "src/main/resources/assets/kaleidoscope_snack/models/item/grilled_squid.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "Potstickers",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potstickers",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaleidoscope_snack/models/item/potstickers.json",
+          "src/main/java/kaleidoscopesnack/item/PotstickersItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "GroundMeat",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ground_meat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaleidoscope_snack/models/item/ground_meat.json",
+          "src/main/java/kaleidoscopesnack/item/GroundMeatItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "Sausage",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sausage",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaleidoscope_snack/models/item/sausage.json",
+          "src/main/java/kaleidoscopesnack/item/SausageItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "SausageCasing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sausage_casing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaleidoscope_snack/models/item/sausage_casing.json",
+          "src/main/java/kaleidoscopesnack/item/SausageCasingItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "CookedSausage",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_sausage",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaleidoscope_snack/models/item/cooked_sausage.json",
+          "src/main/java/kaleidoscopesnack/item/CookedSausageItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "PotatoChunks",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potato_chunks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaleidoscope_snack/models/item/potato_chunks.json",
+          "src/main/java/kaleidoscopesnack/item/PotatoChunksItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "GetPoisonedEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_poisoned_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/kaleidoscopesnack/procedures/GetPoisonedEffectProcedure.java"
+        ]
+      },
+      "path": "~/Procedure"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:meat": [
+      "~GroundMeat@CUSTOM:GroundMeat",
+      "~Sausage@CUSTOM:Sausage",
+      "~Squid@CUSTOM:Squid"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:KaleidoscopeSnack": [
+      "Jianbing",
+      "GrilledSquid",
+      "Potstickers",
+      "CookedSausage",
+      "Sausage",
+      "SausageCasing",
+      "GroundMeat",
+      "Squid",
+      "PotatoChunks"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item_group.kaleidoscope_snack.kaleidoscope_snack": "Kaleidoscope Snack",
+      "item.kaleidoscope_snack.pancake": "Pancake",
+      "item.kaleidoscope_snack.raw_squid": "Squid",
+      "item.kaleidoscope_snack.grilled_squid": "Grilled Squid",
+      "item.kaleidoscope_snack.potstickers": "Potstickers",
+      "item.kaleidoscope_snack.ground_meat": "Ground Meat",
+      "item.kaleidoscope_snack.sausage": "Sausage",
+      "item.kaleidoscope_snack.sausage_casing": "Sausage Casing",
+      "item.kaleidoscope_snack.cooked_sausage": "Cooked Sausage",
+      "item.kaleidoscope_snack.potato_chunks": "Potato Chunks"
+    },
+    "zh_cn": {
+      "item_group.kaleidoscope_snack.kaleidoscope_snack": "森罗物语：小吃",
+      "item.kaleidoscope_snack.pancake": "煎饼",
+      "item.kaleidoscope_snack.raw_squid": "生鱿鱼",
+      "item.kaleidoscope_snack.grilled_squid": "铁板鱿鱼",
+      "item.kaleidoscope_snack.potstickers": "锅贴",
+      "item.kaleidoscope_snack.ground_meat": "肉糜",
+      "item.kaleidoscope_snack.sausage": "香肠",
+      "item.kaleidoscope_snack.sausage_casing": "肠衣",
+      "item.kaleidoscope_snack.cooked_sausage": "烤肠",
+      "item.kaleidoscope_snack.potato_chunks": "Potato Chunks"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/kaleidoscopesnack/init/KaleidoscopeSnackModItems.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/kaleidoscopesnack/init/KaleidoscopeSnackModTabs.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/kaleidoscopesnack/KaleidoscopeSnackMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Item",
+        "children": []
+      },
+      {
+        "name": "Procedure",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "kaleidoscope_snack",
+    "modName": "森罗物语：小吃",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [
+      "kaleidoscope_cookery"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "kaleidoscopesnack"
+  },
+  "mcreatorVersion": 202600233518
+}

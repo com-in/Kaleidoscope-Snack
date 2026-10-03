@@ -1,0 +1,1270 @@
+[03Oct2026 23:11:09.269] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.232, --assetIndex, 17, --assetsDir, C:\\Users\\Ctoy\\.mcreator\\gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.232, --fml.neoFormVersion, 20240808.144430]
+[03Oct2026 23:11:09.273] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.12.1+1-LTS
+[03Oct2026 23:11:09.275] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.12.1 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[03Oct2026 23:11:09.430] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[03Oct2026 23:11:09.688] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[03Oct2026 23:11:09.871] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[03Oct2026 23:11:10.038] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Ctoy/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
+[03Oct2026 23:11:10.300] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon(TM) 610M GL version 4.6.0 Core Profile Context 25.10.32.08.260211, ATI Technologies Inc.
+[03Oct2026 23:11:10.814] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[03Oct2026 23:11:10.819] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Architectury 13.0.11 (architectury)
+		Kaleidoscope Cookery 1.5.1-neoforge+mc1.21.1 (kaleidoscope_cookery)
+		KubeJS 2101.7.2-build.321 (kubejs)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.232 (neoforge)
+		Rhino 2101.2.7-build.81 (rhino)
+		森罗物语：小吃 1.0.0 (kaleidoscope_snack)
+[03Oct2026 23:11:13.192] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[03Oct2026 23:11:13.212] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.232, --gameDir, ., --assetsDir, C:\Users\Ctoy\.mcreator\gradle\caches\neoformruntime\assets, --assetIndex, 17]
+[03Oct2026 23:11:13.294] [main/WARN] [mixin/]: Reference map 'kaleidoscope_cookery.refmap.json' for kaleidoscope_cookery.mixins.json could not be read. If this is a development environment you can ignore this message
+[03Oct2026 23:11:14.330] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[03Oct2026 23:11:18.201] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 666 milliseconds
+[03Oct2026 23:11:26.537] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03Oct2026 23:11:26.540] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03Oct2026 23:11:26.544] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03Oct2026 23:11:26.548] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03Oct2026 23:11:26.566] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03Oct2026 23:11:26.808] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/MCreatorWorkspaces/kaleidoscope_snack/build/moddev/artifacts/neoforge-21.1.232.jar%23193!/assets/.mcassetsroot' uses unexpected schema
+[03Oct2026 23:11:26.808] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/MCreatorWorkspaces/kaleidoscope_snack/build/moddev/artifacts/neoforge-21.1.232.jar%23193!/data/.mcassetsroot' uses unexpected schema
+[03Oct2026 23:11:26.899] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03Oct2026 23:11:26.918] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[03Oct2026 23:11:27.127] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[03Oct2026 23:11:27.450] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.232, for MC 1.21.1
+[03Oct2026 23:11:27.987] [modloading-worker-0/INFO] [KubeJS Startup/]: Capturing errors for startup scripts enabled
+[03Oct2026 23:11:27.987] [modloading-worker-0/INFO] [KubeJS Client/]: Capturing errors for client scripts enabled
+[03Oct2026 23:11:27.988] [modloading-worker-0/INFO] [KubeJS/]: Loading vanilla registries...
+[03Oct2026 23:11:28.005] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[03Oct2026 23:11:28.011] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[03Oct2026 23:11:28.025] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kaleidoscope_cookery
+[03Oct2026 23:11:28.030] [modloading-worker-0/INFO] [KubeJS/]: Done in 20.92 ms
+[03Oct2026 23:11:28.591] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:main.js#2: Hello, World! (Loaded startup example script)
+[03Oct2026 23:11:28.596] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:main.js in 0.061 s
+[03Oct2026 23:11:28.601] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 1/1 KubeJS startup scripts in 0.552 s with 0 errors and 0 warnings
+[03Oct2026 23:11:28.622] [modloading-worker-0/INFO] [KubeJS Client/]: client_scripts:main.js#2: Hello, World! (Loaded client example script)
+[03Oct2026 23:11:28.624] [modloading-worker-0/INFO] [KubeJS Client/]: Loaded script client_scripts:main.js in 0.002 s
+[03Oct2026 23:11:28.624] [modloading-worker-0/INFO] [KubeJS Client/]: Loaded 1/1 KubeJS client scripts in 0.021 s with 0 errors and 0 warnings
+[03Oct2026 23:11:28.630] [modloading-worker-0/INFO] [KubeJS Startup/]: Validated 2 files in kubejs/assets/ in 4ms
+[03Oct2026 23:11:28.631] [modloading-worker-0/INFO] [KubeJS Startup/]: Validated 0 files in kubejs/data/ in 0ms
+[03Oct2026 23:11:29.984] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[03Oct2026 23:11:30.277] [Render thread/INFO] [KubeJS/]: Loaded 13 asset packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, assets], mod_resources, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, assets], KubeJS Virtual Resource Pack [After Mods, assets], KubeJS File Resource Pack [assets], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, assets]
+[03Oct2026 23:11:30.279] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, KubeJS Virtual Resource Pack [Before Mods, assets], mod_resources, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, assets], KubeJS Virtual Resource Pack [After Mods, assets], KubeJS File Resource Pack [assets], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, assets]
+[03Oct2026 23:11:30.487] [Render thread/INFO] [KubeJS Client/]: Client resource reload complete!
+[03Oct2026 23:11:30.544] [Worker-Main-30/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[03Oct2026 23:11:30.544] [Worker-Main-10/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[03Oct2026 23:11:31.079] [Render thread/INFO] [KubeJS/]: Started the local web server at http://localhost:61423
+[03Oct2026 23:11:35.164] [Render thread/INFO] [KubeJS Startup/]: Capturing errors for startup scripts disabled
+[03Oct2026 23:11:35.165] [Render thread/INFO] [KubeJS Client/]: Capturing errors for client scripts disabled
+[03Oct2026 23:11:35.666] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[03Oct2026 23:11:35.666] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[03Oct2026 23:11:36.481] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 扬声器 (Senary Audio)
+[03Oct2026 23:11:36.482] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[03Oct2026 23:11:36.665] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x2 minecraft:textures/atlas/blocks.png-atlas
+[03Oct2026 23:11:36.689] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[03Oct2026 23:11:36.690] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[03Oct2026 23:11:36.691] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[03Oct2026 23:11:36.692] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[03Oct2026 23:11:36.704] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[03Oct2026 23:11:36.705] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[03Oct2026 23:11:36.705] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[03Oct2026 23:11:36.706] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[03Oct2026 23:11:36.828] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[03Oct2026 23:11:36.832] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[03Oct2026 23:11:36.833] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[03Oct2026 23:11:36.834] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[03Oct2026 23:11:36.834] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[03Oct2026 23:11:36.906] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[03Oct2026 23:11:37.039] [Render thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded item render replacer data
+[03Oct2026 23:11:37.044] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[03Oct2026 23:12:06.584] [Render thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:12:06.615] [Render thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.012 s
+[03Oct2026 23:12:06.618] [Render thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.003 s
+[03Oct2026 23:12:06.620] [Render thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.001 s
+[03Oct2026 23:12:06.620] [Render thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:12:06.620] [Render thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:12:06.622] [Render thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.001 s
+[03Oct2026 23:12:06.622] [Render thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:12:06.623] [Render thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.001 s
+[03Oct2026 23:12:06.625] [Render thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.002 s
+[03Oct2026 23:12:06.626] [Render thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:12:06.628] [Render thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.002 s
+[03Oct2026 23:12:06.628] [Render thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:12:06.653] [Render thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.069 s with 0 errors and 0 warnings
+[03Oct2026 23:12:06.657] [Render thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:12:08.793] [Render thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:12:08.798] [Render thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:12:09.026] [Render thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 221.2 ms
+[03Oct2026 23:12:09.178] [Render thread/ERROR] [KubeJS Server/]: spicy_crinkle_cut_fries.js#2: Error in 'ServerEvents.recipes': dev.latvian.mods.rhino.EcmaError: TypeError: Cannot find default value for object.
+[03Oct2026 23:12:09.183] [Render thread/INFO] [KubeJS Server/]: Posted recipe events in 155 ms
+[03Oct2026 23:12:09.244] [Render thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 58.40 ms
+[03Oct2026 23:12:09.376] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1914 recipes
+[03Oct2026 23:12:09.380] [Render thread/INFO] [KubeJS Server/]: Added 12 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes taking 580 ms in total
+[03Oct2026 23:12:09.813] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:12:09.827] [Render thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:12:10.722] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[03Oct2026 23:12:10.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[03Oct2026 23:12:11.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03Oct2026 23:12:11.222] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:12:11.232] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:12:11.676] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
+[03Oct2026 23:12:11.738] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：2%
+[03Oct2026 23:12:11.829] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[03Oct2026 23:12:11.835] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 613 ms
+[03Oct2026 23:12:11.994] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[03Oct2026 23:12:11.994] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[03Oct2026 23:12:13.203] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:ffdc5cc3] logged in with entity id 6 at (-13.636921462453232, -59.0, -6.614480118696116)
+[03Oct2026 23:12:13.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev加入了游戏
+[03Oct2026 23:12:13.687] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ! KubeJS errors found [1]!
+[03Oct2026 23:12:13.725] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:12:14.885] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Oct2026 23:12:15.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[03Oct2026 23:12:15.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[03Oct2026 23:12:15.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[03Oct2026 23:12:58.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 重新加载中！]
+[03Oct2026 23:12:58.387] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:12:58.387] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 重新加载中！
+[03Oct2026 23:12:58.403] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.002 s
+[03Oct2026 23:12:58.404] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.001 s
+[03Oct2026 23:12:58.406] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.001 s
+[03Oct2026 23:12:58.406] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:12:58.408] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:12:58.408] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.002 s
+[03Oct2026 23:12:58.408] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:12:58.409] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.001 s
+[03Oct2026 23:12:58.410] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.001 s
+[03Oct2026 23:12:58.410] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:12:58.412] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.002 s
+[03Oct2026 23:12:58.412] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:12:58.414] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.026 s with 0 errors and 0 warnings
+[03Oct2026 23:12:58.414] [Server thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:12:58.430] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.0 s
+[03Oct2026 23:12:58.431] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.001 s
+[03Oct2026 23:12:58.433] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.002 s
+[03Oct2026 23:12:58.433] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:12:58.433] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:12:58.433] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:12:58.435] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.001 s
+[03Oct2026 23:12:58.437] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.001 s
+[03Oct2026 23:12:58.439] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:12:58.440] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.001 s
+[03Oct2026 23:12:58.441] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:12:58.442] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.001 s
+[03Oct2026 23:12:58.443] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.025 s with 0 errors and 0 warnings
+[03Oct2026 23:12:58.925] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:12:58.926] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:12:59.029] [Server thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 100.8 ms
+[03Oct2026 23:12:59.039] [Server thread/ERROR] [KubeJS Server/]: spicy_crinkle_cut_fries.js#3: Error in 'ServerEvents.recipes': dev.latvian.mods.rhino.EcmaError: TypeError: Cannot find default value for object.
+[03Oct2026 23:12:59.042] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 11 ms
+[03Oct2026 23:12:59.053] [Server thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 9.777 ms
+[03Oct2026 23:12:59.128] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1914 recipes
+[03Oct2026 23:12:59.130] [Server thread/INFO] [KubeJS Server/]: Added 12 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes taking 202 ms in total
+[03Oct2026 23:12:59.300] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:12:59.304] [Server thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:12:59.305] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Before Mods, data]
+[03Oct2026 23:12:59.305] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Internal, data]
+[03Oct2026 23:12:59.305] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Registries, data]
+[03Oct2026 23:12:59.305] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [After Mods, data]
+[03Oct2026 23:12:59.305] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:13:00.003] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:13:00.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ! KubeJS errors found [1]!
+[03Oct2026 23:13:00.005] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:13:00.108] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:13:00.110] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ! KubeJS errors found [1]!
+[03Oct2026 23:13:02.486] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Oct2026 23:13:02.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[03Oct2026 23:13:02.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[03Oct2026 23:13:02.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[03Oct2026 23:13:18.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 重新加载中！]
+[03Oct2026 23:13:18.985] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:13:18.994] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 重新加载中！
+[03Oct2026 23:13:19.001] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.001 s
+[03Oct2026 23:13:19.001] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:13:19.003] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:13:19.003] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:13:19.003] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:13:19.004] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:13:19.005] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.001 s
+[03Oct2026 23:13:19.006] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.001 s
+[03Oct2026 23:13:19.007] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.001 s
+[03Oct2026 23:13:19.007] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:13:19.008] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.001 s
+[03Oct2026 23:13:19.008] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:13:19.009] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.024 s with 0 errors and 0 warnings
+[03Oct2026 23:13:19.009] [Server thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:13:19.024] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.0 s
+[03Oct2026 23:13:19.025] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.001 s
+[03Oct2026 23:13:19.025] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:13:19.025] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:13:19.026] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:13:19.026] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.001 s
+[03Oct2026 23:13:19.027] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.001 s
+[03Oct2026 23:13:19.028] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.001 s
+[03Oct2026 23:13:19.029] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.001 s
+[03Oct2026 23:13:19.029] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:13:19.030] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.001 s
+[03Oct2026 23:13:19.032] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.002 s
+[03Oct2026 23:13:19.032] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.02 s with 0 errors and 0 warnings
+[03Oct2026 23:13:19.543] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:13:19.543] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:13:19.631] [Server thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 86.54 ms
+[03Oct2026 23:13:19.640] [Server thread/ERROR] [KubeJS Server/]: spicy_crinkle_cut_fries.js#3: Error in 'ServerEvents.recipes': dev.latvian.mods.rhino.EcmaError: TypeError: Cannot find default value for object.
+[03Oct2026 23:13:19.644] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 11 ms
+[03Oct2026 23:13:19.655] [Server thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 9.714 ms
+[03Oct2026 23:13:19.708] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1914 recipes
+[03Oct2026 23:13:19.709] [Server thread/INFO] [KubeJS Server/]: Added 12 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes taking 164 ms in total
+[03Oct2026 23:13:19.811] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:13:19.814] [Server thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:13:19.815] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Before Mods, data]
+[03Oct2026 23:13:19.815] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Internal, data]
+[03Oct2026 23:13:19.815] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Registries, data]
+[03Oct2026 23:13:19.815] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [After Mods, data]
+[03Oct2026 23:13:19.815] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:13:20.532] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:13:20.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ! KubeJS errors found [1]!
+[03Oct2026 23:13:20.534] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:13:20.597] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:13:20.599] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ! KubeJS errors found [1]!
+[03Oct2026 23:14:02.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 重新加载中！]
+[03Oct2026 23:14:02.708] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:14:02.709] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 重新加载中！
+[03Oct2026 23:14:02.724] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.002 s
+[03Oct2026 23:14:02.726] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.001 s
+[03Oct2026 23:14:02.726] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:14:02.726] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:14:02.727] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:14:02.727] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.001 s
+[03Oct2026 23:14:02.727] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:14:02.728] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:14:02.729] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.001 s
+[03Oct2026 23:14:02.729] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:14:02.730] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.001 s
+[03Oct2026 23:14:02.730] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:14:02.732] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.025 s with 0 errors and 0 warnings
+[03Oct2026 23:14:02.732] [Server thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:14:02.747] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.001 s
+[03Oct2026 23:14:02.748] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:14:02.749] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.001 s
+[03Oct2026 23:14:02.749] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:14:02.750] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:14:02.750] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.001 s
+[03Oct2026 23:14:02.751] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.001 s
+[03Oct2026 23:14:02.752] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.001 s
+[03Oct2026 23:14:02.752] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:14:02.752] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:14:02.753] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.001 s
+[03Oct2026 23:14:02.754] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.001 s
+[03Oct2026 23:14:02.755] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.02 s with 0 errors and 0 warnings
+[03Oct2026 23:14:03.157] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:14:03.157] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:14:03.228] [Server thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 68.48 ms
+[03Oct2026 23:14:03.233] [Server thread/ERROR] [KubeJS Server/]: spicy_crinkle_cut_fries.js#3: Error in 'ServerEvents.recipes': dev.latvian.mods.rhino.EcmaError: TypeError: Cannot find default value for object.
+[03Oct2026 23:14:03.237] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 7 ms
+[03Oct2026 23:14:03.246] [Server thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 9.089 ms
+[03Oct2026 23:14:03.293] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1914 recipes
+[03Oct2026 23:14:03.294] [Server thread/INFO] [KubeJS Server/]: Added 12 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes taking 136 ms in total
+[03Oct2026 23:14:03.389] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:14:03.392] [Server thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:14:03.393] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Before Mods, data]
+[03Oct2026 23:14:03.393] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Internal, data]
+[03Oct2026 23:14:03.393] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Registries, data]
+[03Oct2026 23:14:03.394] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [After Mods, data]
+[03Oct2026 23:14:03.394] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:14:04.039] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:14:04.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ! KubeJS errors found [1]!
+[03Oct2026 23:14:04.041] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:14:04.113] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:14:04.114] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ! KubeJS errors found [1]!
+[03Oct2026 23:14:16.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 重新加载中！]
+[03Oct2026 23:14:16.983] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:14:16.985] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 重新加载中！
+[03Oct2026 23:14:16.998] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.001 s
+[03Oct2026 23:14:17.000] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.002 s
+[03Oct2026 23:14:17.001] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.001 s
+[03Oct2026 23:14:17.001] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:14:17.001] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:14:17.001] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:14:17.002] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:14:17.003] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:14:17.004] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.001 s
+[03Oct2026 23:14:17.004] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:14:17.005] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.001 s
+[03Oct2026 23:14:17.005] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:14:17.006] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.024 s with 0 errors and 0 warnings
+[03Oct2026 23:14:17.006] [Server thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:14:17.021] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.001 s
+[03Oct2026 23:14:17.022] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:14:17.022] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:14:17.023] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:14:17.023] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:14:17.023] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:14:17.025] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:14:17.026] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.001 s
+[03Oct2026 23:14:17.026] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:14:17.026] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:14:17.027] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.001 s
+[03Oct2026 23:14:17.028] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.001 s
+[03Oct2026 23:14:17.028] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.02 s with 0 errors and 0 warnings
+[03Oct2026 23:14:17.453] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:14:17.453] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:14:17.517] [Server thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 62.99 ms
+[03Oct2026 23:14:17.525] [Server thread/ERROR] [KubeJS Server/]: spicy_crinkle_cut_fries.js#3: Error in 'ServerEvents.recipes': dev.latvian.mods.rhino.EcmaError: TypeError: Cannot find default value for object.
+[03Oct2026 23:14:17.526] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 8 ms
+[03Oct2026 23:14:17.533] [Server thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 6.289 ms
+[03Oct2026 23:14:17.576] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1914 recipes
+[03Oct2026 23:14:17.577] [Server thread/INFO] [KubeJS Server/]: Added 12 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes taking 123 ms in total
+[03Oct2026 23:14:17.662] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:14:17.665] [Server thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:14:17.665] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Before Mods, data]
+[03Oct2026 23:14:17.665] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Internal, data]
+[03Oct2026 23:14:17.665] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Registries, data]
+[03Oct2026 23:14:17.665] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [After Mods, data]
+[03Oct2026 23:14:17.665] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:14:18.383] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:14:18.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ! KubeJS errors found [1]!
+[03Oct2026 23:14:18.384] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:14:18.445] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:14:18.446] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ! KubeJS errors found [1]!
+[03Oct2026 23:15:29.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 重新加载中！]
+[03Oct2026 23:15:29.711] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:15:29.715] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 重新加载中！
+[03Oct2026 23:15:29.726] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.001 s
+[03Oct2026 23:15:29.728] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.002 s
+[03Oct2026 23:15:29.729] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:15:29.729] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:15:29.729] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:15:29.730] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:15:29.730] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:15:29.730] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:15:29.730] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:15:29.731] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.001 s
+[03Oct2026 23:15:29.732] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.001 s
+[03Oct2026 23:15:29.732] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:15:29.732] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.022 s with 0 errors and 0 warnings
+[03Oct2026 23:15:29.733] [Server thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:15:29.749] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.001 s
+[03Oct2026 23:15:29.750] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:15:29.752] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:15:29.752] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:15:29.752] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:15:29.753] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:15:29.753] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:15:29.754] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:15:29.754] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:15:29.754] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:15:29.756] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:15:29.758] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.001 s
+[03Oct2026 23:15:29.758] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.022 s with 0 errors and 0 warnings
+[03Oct2026 23:15:30.162] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:15:30.162] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:15:30.214] [Server thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 50.11 ms
+[03Oct2026 23:15:30.223] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#3: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_potatoes, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_cookery:red_chili, kaleidoscope_cookery:red_chili], 3.0, minecraft:bowl]: Unable to set 'result: item_stack' to 'kaleidoscope_snack:spicy_potatoes' as 'item_stack'! - Failed to read item stack from kaleidoscope_snack:spicy_potatoes: Item with ID kaleidoscope_snack:spicy_potatoes does not exist!
+[03Oct2026 23:15:30.231] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#17: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_potatoes, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_cookery:green_chili, kaleidoscope_cookery:green_chili], 3.0, minecraft:bowl]: Unable to set 'result: item_stack' to 'kaleidoscope_snack:spicy_potatoes' as 'item_stack'! - Failed to read item stack from kaleidoscope_snack:spicy_potatoes: Item with ID kaleidoscope_snack:spicy_potatoes does not exist!
+[03Oct2026 23:15:30.233] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 19 ms
+[03Oct2026 23:15:30.239] [Server thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 4.872 ms
+[03Oct2026 23:15:30.283] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1914 recipes
+[03Oct2026 23:15:30.283] [Server thread/INFO] [KubeJS Server/]: Added 12 recipes, removed 0 recipes, modified 0 recipes, with 2 failed recipes taking 119 ms in total
+[03Oct2026 23:15:30.358] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:15:30.362] [Server thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:15:30.362] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Before Mods, data]
+[03Oct2026 23:15:30.362] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Internal, data]
+[03Oct2026 23:15:30.362] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Registries, data]
+[03Oct2026 23:15:30.362] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [After Mods, data]
+[03Oct2026 23:15:30.362] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:15:31.023] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:15:31.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ! KubeJS errors found [2]!
+[03Oct2026 23:15:31.024] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:15:31.112] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:15:31.115] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ! KubeJS errors found [2]!
+[03Oct2026 23:15:33.235] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Oct2026 23:15:33.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[03Oct2026 23:15:33.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[03Oct2026 23:15:33.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[03Oct2026 23:15:52.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 重新加载中！]
+[03Oct2026 23:15:52.272] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:15:52.275] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 重新加载中！
+[03Oct2026 23:15:52.286] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.002 s
+[03Oct2026 23:15:52.287] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.001 s
+[03Oct2026 23:15:52.287] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:15:52.287] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:15:52.288] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:15:52.289] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:15:52.289] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:15:52.289] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:15:52.290] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.001 s
+[03Oct2026 23:15:52.291] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:15:52.291] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:15:52.291] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:15:52.293] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.022 s with 0 errors and 0 warnings
+[03Oct2026 23:15:52.293] [Server thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:15:52.305] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.0 s
+[03Oct2026 23:15:52.306] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:15:52.307] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:15:52.307] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:15:52.307] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:15:52.307] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:15:52.308] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.001 s
+[03Oct2026 23:15:52.308] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:15:52.308] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:15:52.309] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.001 s
+[03Oct2026 23:15:52.309] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:15:52.309] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:15:52.309] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.013 s with 0 errors and 0 warnings
+[03Oct2026 23:15:52.705] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:15:52.705] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:15:52.758] [Server thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 50.96 ms
+[03Oct2026 23:15:52.767] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#3: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_cookery:red_chili, kaleidoscope_cookery:red_chili], 3.0, minecraft:bowl]: Unable to set 'carrier: optional_ingredient?' to '3.0' as 'optional_ingredient'! - Failed to read ingredient from 3.0: Could not parse input 3.0 for item stack
+[03Oct2026 23:15:52.768] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#17: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_cookery:green_chili, kaleidoscope_cookery:green_chili], 3.0, minecraft:bowl]: Unable to set 'carrier: optional_ingredient?' to '3.0' as 'optional_ingredient'! - Failed to read ingredient from 3.0: Could not parse input 3.0 for item stack
+[03Oct2026 23:15:52.772] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 13 ms
+[03Oct2026 23:15:52.776] [Server thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 3.997 ms
+[03Oct2026 23:15:52.816] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1914 recipes
+[03Oct2026 23:15:52.816] [Server thread/INFO] [KubeJS Server/]: Added 12 recipes, removed 0 recipes, modified 0 recipes, with 2 failed recipes taking 110 ms in total
+[03Oct2026 23:15:52.882] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:15:52.885] [Server thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:15:52.885] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Before Mods, data]
+[03Oct2026 23:15:52.885] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Internal, data]
+[03Oct2026 23:15:52.885] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Registries, data]
+[03Oct2026 23:15:52.885] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [After Mods, data]
+[03Oct2026 23:15:52.885] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:15:53.525] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:15:53.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ! KubeJS errors found [2]!
+[03Oct2026 23:15:53.526] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:15:53.567] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:15:53.568] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ! KubeJS errors found [2]!
+[03Oct2026 23:15:54.886] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Oct2026 23:15:54.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[03Oct2026 23:15:54.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[03Oct2026 23:15:54.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[03Oct2026 23:16:43.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 重新加载中！]
+[03Oct2026 23:16:43.300] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 重新加载中！
+[03Oct2026 23:16:43.300] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:16:43.312] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.002 s
+[03Oct2026 23:16:43.312] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:16:43.313] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.001 s
+[03Oct2026 23:16:43.313] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:16:43.314] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:16:43.314] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.001 s
+[03Oct2026 23:16:43.314] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:16:43.315] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.001 s
+[03Oct2026 23:16:43.316] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:16:43.316] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:16:43.317] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.001 s
+[03Oct2026 23:16:43.317] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:16:43.318] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.019 s with 0 errors and 0 warnings
+[03Oct2026 23:16:43.318] [Server thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:16:43.329] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.0 s
+[03Oct2026 23:16:43.329] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:16:43.330] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:16:43.330] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:16:43.330] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:16:43.330] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:16:43.330] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:16:43.331] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:16:43.331] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:16:43.332] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:16:43.332] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:16:43.333] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:16:43.334] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.014 s with 0 errors and 0 warnings
+[03Oct2026 23:16:43.721] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:16:43.722] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:16:43.781] [Server thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 58.06 ms
+[03Oct2026 23:16:43.789] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#3: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_cookery:red_chili, kaleidoscope_cookery:red_chili], 3.0, minecraft:bowl]: Unable to set 'carrier: optional_ingredient?' to '3.0' as 'optional_ingredient'! - Failed to read ingredient from 3.0: Could not parse input 3.0 for item stack
+[03Oct2026 23:16:43.790] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#17: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_cookery:green_chili, kaleidoscope_cookery:green_chili], 3.0, minecraft:bowl]: Unable to set 'carrier: optional_ingredient?' to '3.0' as 'optional_ingredient'! - Failed to read ingredient from 3.0: Could not parse input 3.0 for item stack
+[03Oct2026 23:16:43.794] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 12 ms
+[03Oct2026 23:16:43.799] [Server thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 4.266 ms
+[03Oct2026 23:16:43.845] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1914 recipes
+[03Oct2026 23:16:43.845] [Server thread/INFO] [KubeJS Server/]: Added 12 recipes, removed 0 recipes, modified 0 recipes, with 2 failed recipes taking 123 ms in total
+[03Oct2026 23:16:43.937] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:16:43.942] [Server thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:16:43.943] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Before Mods, data]
+[03Oct2026 23:16:43.943] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Internal, data]
+[03Oct2026 23:16:43.943] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Registries, data]
+[03Oct2026 23:16:43.943] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [After Mods, data]
+[03Oct2026 23:16:43.943] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:16:44.711] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:16:44.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ! KubeJS errors found [2]!
+[03Oct2026 23:16:44.712] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:16:44.771] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:16:44.773] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ! KubeJS errors found [2]!
+[03Oct2026 23:16:46.486] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Oct2026 23:16:46.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[03Oct2026 23:16:46.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[03Oct2026 23:16:46.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[03Oct2026 23:16:52.936] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Oct2026 23:16:52.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[03Oct2026 23:16:52.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[03Oct2026 23:16:52.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[03Oct2026 23:17:44.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 重新加载中！]
+[03Oct2026 23:17:44.579] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:17:44.581] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 重新加载中！
+[03Oct2026 23:17:44.590] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.001 s
+[03Oct2026 23:17:44.591] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:17:44.591] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:17:44.591] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:17:44.593] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:17:44.593] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.002 s
+[03Oct2026 23:17:44.593] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:17:44.593] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:17:44.594] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:17:44.594] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:17:44.595] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.001 s
+[03Oct2026 23:17:44.595] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:17:44.596] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.016 s with 0 errors and 0 warnings
+[03Oct2026 23:17:44.596] [Server thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:17:44.606] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.0 s
+[03Oct2026 23:17:44.607] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:17:44.607] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:17:44.607] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:17:44.607] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:17:44.608] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.001 s
+[03Oct2026 23:17:44.608] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:17:44.608] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:17:44.609] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.001 s
+[03Oct2026 23:17:44.610] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:17:44.610] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:17:44.610] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:17:44.611] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.013 s with 0 errors and 0 warnings
+[03Oct2026 23:17:44.967] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:17:44.967] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:17:45.019] [Server thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 49.85 ms
+[03Oct2026 23:17:45.023] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#2: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_cookery:red_chili, kaleidoscope_cookery:red_chili], 3.0]: Unable to set 'carrier: optional_ingredient?' to '3.0' as 'optional_ingredient'! - Failed to read ingredient from 3.0: Could not parse input 3.0 for item stack
+[03Oct2026 23:17:45.025] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#14: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_cookery:green_chili, kaleidoscope_cookery:green_chili], 3.0]: Unable to set 'carrier: optional_ingredient?' to '3.0' as 'optional_ingredient'! - Failed to read ingredient from 3.0: Could not parse input 3.0 for item stack
+[03Oct2026 23:17:45.028] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 8 ms
+[03Oct2026 23:17:45.031] [Server thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 2.744 ms
+[03Oct2026 23:17:45.068] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1914 recipes
+[03Oct2026 23:17:45.071] [Server thread/INFO] [KubeJS Server/]: Added 12 recipes, removed 0 recipes, modified 0 recipes, with 2 failed recipes taking 102 ms in total
+[03Oct2026 23:17:45.144] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:17:45.148] [Server thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:17:45.149] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Before Mods, data]
+[03Oct2026 23:17:45.149] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Internal, data]
+[03Oct2026 23:17:45.149] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Registries, data]
+[03Oct2026 23:17:45.149] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [After Mods, data]
+[03Oct2026 23:17:45.149] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:17:45.865] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:17:45.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ! KubeJS errors found [2]!
+[03Oct2026 23:17:45.866] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:17:45.917] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:17:45.920] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ! KubeJS errors found [2]!
+[03Oct2026 23:17:48.236] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Oct2026 23:17:48.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[03Oct2026 23:17:48.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[03Oct2026 23:17:48.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[03Oct2026 23:17:57.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 重新加载中！]
+[03Oct2026 23:17:57.387] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:17:57.391] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 重新加载中！
+[03Oct2026 23:17:57.398] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.001 s
+[03Oct2026 23:17:57.399] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:17:57.399] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:17:57.399] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:17:57.399] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:17:57.400] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.001 s
+[03Oct2026 23:17:57.400] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:17:57.401] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:17:57.402] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.001 s
+[03Oct2026 23:17:57.402] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:17:57.403] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:17:57.403] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:17:57.404] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.017 s with 0 errors and 0 warnings
+[03Oct2026 23:17:57.405] [Server thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:17:57.416] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.0 s
+[03Oct2026 23:17:57.416] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:17:57.416] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:17:57.418] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:17:57.418] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:17:57.418] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:17:57.419] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:17:57.419] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:17:57.419] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:17:57.419] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:17:57.420] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.001 s
+[03Oct2026 23:17:57.421] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:17:57.422] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.015 s with 0 errors and 0 warnings
+[03Oct2026 23:17:57.799] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:17:57.800] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:17:57.867] [Server thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 65.93 ms
+[03Oct2026 23:17:57.873] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#2: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_cookery:red_chili, kaleidoscope_cookery:red_chili], 3.0]: Unable to set 'carrier: optional_ingredient?' to '3.0' as 'optional_ingredient'! - Failed to read ingredient from 3.0: Could not parse input 3.0 for item stack
+[03Oct2026 23:17:57.875] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#14: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_cookery:green_chili, kaleidoscope_cookery:green_chili], 3.0]: Unable to set 'carrier: optional_ingredient?' to '3.0' as 'optional_ingredient'! - Failed to read ingredient from 3.0: Could not parse input 3.0 for item stack
+[03Oct2026 23:17:57.877] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 9 ms
+[03Oct2026 23:17:57.879] [Server thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 2.400 ms
+[03Oct2026 23:17:57.920] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1914 recipes
+[03Oct2026 23:17:57.921] [Server thread/INFO] [KubeJS Server/]: Added 12 recipes, removed 0 recipes, modified 0 recipes, with 2 failed recipes taking 120 ms in total
+[03Oct2026 23:17:57.994] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:17:57.997] [Server thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:17:57.998] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Before Mods, data]
+[03Oct2026 23:17:57.998] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Internal, data]
+[03Oct2026 23:17:57.998] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Registries, data]
+[03Oct2026 23:17:57.998] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [After Mods, data]
+[03Oct2026 23:17:57.998] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:17:58.633] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:17:58.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ! KubeJS errors found [2]!
+[03Oct2026 23:17:58.634] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:17:58.680] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:17:58.682] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ! KubeJS errors found [2]!
+[03Oct2026 23:18:00.237] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Oct2026 23:18:00.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[03Oct2026 23:18:00.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[03Oct2026 23:18:00.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[03Oct2026 23:20:54.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 重新加载中！]
+[03Oct2026 23:20:54.203] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:20:54.209] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 重新加载中！
+[03Oct2026 23:20:54.216] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.001 s
+[03Oct2026 23:20:54.219] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.001 s
+[03Oct2026 23:20:54.220] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.001 s
+[03Oct2026 23:20:54.220] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:20:54.220] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:20:54.221] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:20:54.222] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.001 s
+[03Oct2026 23:20:54.223] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.001 s
+[03Oct2026 23:20:54.224] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:20:54.224] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:20:54.224] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:20:54.225] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.001 s
+[03Oct2026 23:20:54.226] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.025 s with 0 errors and 0 warnings
+[03Oct2026 23:20:54.226] [Server thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:20:54.239] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.0 s
+[03Oct2026 23:20:54.240] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:20:54.240] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:20:54.240] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:20:54.240] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:20:54.240] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:20:54.242] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.002 s
+[03Oct2026 23:20:54.242] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:20:54.243] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:20:54.244] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.001 s
+[03Oct2026 23:20:54.244] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:20:54.245] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.001 s
+[03Oct2026 23:20:54.245] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.015 s with 0 errors and 0 warnings
+[03Oct2026 23:20:54.659] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:20:54.660] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:20:54.715] [Server thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 53.71 ms
+[03Oct2026 23:20:54.723] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#2: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, #c:crops/chilipepper, #c:crops/chilipepper], 3.0]: Unable to set 'carrier: optional_ingredient?' to '3.0' as 'optional_ingredient'! - Failed to read ingredient from 3.0: Could not parse input 3.0 for item stack
+[03Oct2026 23:20:54.725] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 9 ms
+[03Oct2026 23:20:54.731] [Server thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 4.100 ms
+[03Oct2026 23:20:54.768] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1914 recipes
+[03Oct2026 23:20:54.769] [Server thread/INFO] [KubeJS Server/]: Added 12 recipes, removed 0 recipes, modified 0 recipes, with 1 failed recipes taking 108 ms in total
+[03Oct2026 23:20:54.841] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:20:54.844] [Server thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:20:54.844] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Before Mods, data]
+[03Oct2026 23:20:54.844] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Internal, data]
+[03Oct2026 23:20:54.844] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Registries, data]
+[03Oct2026 23:20:54.845] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [After Mods, data]
+[03Oct2026 23:20:54.845] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:20:55.464] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:20:55.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ! KubeJS errors found [1]!
+[03Oct2026 23:20:55.465] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:20:55.513] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:20:55.513] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ! KubeJS errors found [1]!
+[03Oct2026 23:22:32.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 重新加载中！]
+[03Oct2026 23:22:32.885] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:22:32.890] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 重新加载中！
+[03Oct2026 23:22:32.896] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.001 s
+[03Oct2026 23:22:32.897] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.001 s
+[03Oct2026 23:22:32.897] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:22:32.897] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:22:32.897] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:22:32.898] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.001 s
+[03Oct2026 23:22:32.899] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:22:32.899] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:22:32.899] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:22:32.899] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:22:32.900] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.001 s
+[03Oct2026 23:22:32.900] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:22:32.901] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.017 s with 0 errors and 0 warnings
+[03Oct2026 23:22:32.901] [Server thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:22:32.910] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.001 s
+[03Oct2026 23:22:32.911] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.001 s
+[03Oct2026 23:22:32.911] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:22:32.911] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:22:32.911] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:22:32.911] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:22:32.912] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.001 s
+[03Oct2026 23:22:32.912] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:22:32.912] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:22:32.913] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.001 s
+[03Oct2026 23:22:32.913] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:22:32.913] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:22:32.914] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.011 s with 0 errors and 0 warnings
+[03Oct2026 23:22:33.278] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:22:33.279] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:22:33.325] [Server thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 45.86 ms
+[03Oct2026 23:22:33.330] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#2: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, #c:crops/chilipepper, #c:crops/chilipepper], 3.0]: Unable to set 'carrier: optional_ingredient?' to '3.0' as 'optional_ingredient'! - Failed to read ingredient from 3.0: Could not parse input 3.0 for item stack
+[03Oct2026 23:22:33.332] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 7 ms
+[03Oct2026 23:22:33.335] [Server thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 2.020 ms
+[03Oct2026 23:22:33.367] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1914 recipes
+[03Oct2026 23:22:33.368] [Server thread/INFO] [KubeJS Server/]: Added 12 recipes, removed 0 recipes, modified 0 recipes, with 1 failed recipes taking 89 ms in total
+[03Oct2026 23:22:33.426] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:22:33.428] [Server thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:22:33.428] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Before Mods, data]
+[03Oct2026 23:22:33.428] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Internal, data]
+[03Oct2026 23:22:33.428] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Registries, data]
+[03Oct2026 23:22:33.428] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [After Mods, data]
+[03Oct2026 23:22:33.429] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:22:34.083] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:22:34.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ! KubeJS errors found [1]!
+[03Oct2026 23:22:34.085] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:22:34.137] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:22:34.138] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ! KubeJS errors found [1]!
+[03Oct2026 23:22:59.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 重新加载中！]
+[03Oct2026 23:22:59.971] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:22:59.974] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 重新加载中！
+[03Oct2026 23:22:59.984] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.001 s
+[03Oct2026 23:22:59.985] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.001 s
+[03Oct2026 23:22:59.986] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:22:59.986] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:22:59.986] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:22:59.987] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.001 s
+[03Oct2026 23:22:59.987] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:22:59.987] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:22:59.988] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:22:59.988] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:22:59.988] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:22:59.988] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:22:59.990] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.02 s with 0 errors and 0 warnings
+[03Oct2026 23:22:59.990] [Server thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:23:00.001] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.0 s
+[03Oct2026 23:23:00.001] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:23:00.001] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:23:00.002] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:23:00.002] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:23:00.003] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:23:00.003] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:23:00.003] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:23:00.003] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:23:00.003] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:23:00.003] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:23:00.004] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:23:00.004] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.012 s with 0 errors and 0 warnings
+[03Oct2026 23:23:00.395] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:23:00.396] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:23:00.459] [Server thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 62.54 ms
+[03Oct2026 23:23:00.467] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#2: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, #c:crops/chilipepper, #c:crops/chilipepper], 3.0]: Unable to set 'carrier: optional_ingredient?' to '3.0' as 'optional_ingredient'! - Failed to read ingredient from 3.0: Could not parse input 3.0 for item stack
+[03Oct2026 23:23:00.471] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 9 ms
+[03Oct2026 23:23:00.473] [Server thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 2.614 ms
+[03Oct2026 23:23:00.512] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1915 recipes
+[03Oct2026 23:23:00.512] [Server thread/INFO] [KubeJS Server/]: Added 13 recipes, removed 0 recipes, modified 0 recipes, with 1 failed recipes taking 116 ms in total
+[03Oct2026 23:23:00.610] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:23:00.614] [Server thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:23:00.614] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Before Mods, data]
+[03Oct2026 23:23:00.614] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Internal, data]
+[03Oct2026 23:23:00.614] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Registries, data]
+[03Oct2026 23:23:00.614] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [After Mods, data]
+[03Oct2026 23:23:00.614] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:23:01.235] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:23:01.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ! KubeJS errors found [1]!
+[03Oct2026 23:23:01.236] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:23:01.287] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:23:01.290] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ! KubeJS errors found [1]!
+[03Oct2026 23:23:02.736] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Oct2026 23:23:02.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[03Oct2026 23:23:02.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[03Oct2026 23:23:02.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[03Oct2026 23:23:28.536] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Oct2026 23:23:28.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[03Oct2026 23:23:28.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[03Oct2026 23:23:28.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[03Oct2026 23:23:35.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 重新加载中！]
+[03Oct2026 23:23:35.514] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:23:35.514] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 重新加载中！
+[03Oct2026 23:23:35.525] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.001 s
+[03Oct2026 23:23:35.526] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.001 s
+[03Oct2026 23:23:35.526] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:23:35.526] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:23:35.526] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:23:35.527] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.001 s
+[03Oct2026 23:23:35.527] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:23:35.528] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:23:35.528] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:23:35.528] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:23:35.528] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:23:35.528] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:23:35.529] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.016 s with 0 errors and 0 warnings
+[03Oct2026 23:23:35.529] [Server thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:23:35.539] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.0 s
+[03Oct2026 23:23:35.539] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:23:35.539] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:23:35.540] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:23:35.540] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:23:35.540] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:23:35.541] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.001 s
+[03Oct2026 23:23:35.541] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:23:35.541] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:23:35.542] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.001 s
+[03Oct2026 23:23:35.543] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.001 s
+[03Oct2026 23:23:35.543] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:23:35.544] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.012 s with 0 errors and 0 warnings
+[03Oct2026 23:23:35.941] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:23:35.942] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:23:36.001] [Server thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 57.44 ms
+[03Oct2026 23:23:36.007] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#2: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, #c:crops/chilipepper, #c:crops/chilipepper], 3.0]: Unable to set 'carrier: optional_ingredient?' to '3.0' as 'optional_ingredient'! - Failed to read ingredient from 3.0: Could not parse input 3.0 for item stack
+[03Oct2026 23:23:36.011] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 9 ms
+[03Oct2026 23:23:36.014] [Server thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 2.609 ms
+[03Oct2026 23:23:36.045] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1914 recipes
+[03Oct2026 23:23:36.046] [Server thread/INFO] [KubeJS Server/]: Added 12 recipes, removed 0 recipes, modified 0 recipes, with 1 failed recipes taking 103 ms in total
+[03Oct2026 23:23:36.128] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:23:36.130] [Server thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:23:36.130] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Before Mods, data]
+[03Oct2026 23:23:36.130] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Internal, data]
+[03Oct2026 23:23:36.130] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Registries, data]
+[03Oct2026 23:23:36.131] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [After Mods, data]
+[03Oct2026 23:23:36.131] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:23:36.746] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:23:36.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ! KubeJS errors found [1]!
+[03Oct2026 23:23:36.747] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:23:36.789] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:23:36.790] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ! KubeJS errors found [1]!
+[03Oct2026 23:23:38.386] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Oct2026 23:23:38.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[03Oct2026 23:23:38.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[03Oct2026 23:23:38.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[03Oct2026 23:24:47.437] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Oct2026 23:24:47.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[03Oct2026 23:24:47.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[03Oct2026 23:24:47.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[03Oct2026 23:24:58.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 重新加载中！]
+[03Oct2026 23:24:58.342] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:24:58.347] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 重新加载中！
+[03Oct2026 23:24:58.353] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.0 s
+[03Oct2026 23:24:58.353] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:24:58.355] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.001 s
+[03Oct2026 23:24:58.355] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:24:58.355] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:24:58.355] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:24:58.356] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.001 s
+[03Oct2026 23:24:58.356] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:24:58.357] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.001 s
+[03Oct2026 23:24:58.357] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:24:58.357] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:24:58.357] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:24:58.358] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.017 s with 0 errors and 0 warnings
+[03Oct2026 23:24:58.358] [Server thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:24:58.369] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.0 s
+[03Oct2026 23:24:58.369] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:24:58.370] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:24:58.370] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:24:58.370] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:24:58.370] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:24:58.371] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.001 s
+[03Oct2026 23:24:58.371] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:24:58.371] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:24:58.371] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:24:58.371] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:24:58.372] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.001 s
+[03Oct2026 23:24:58.373] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.012 s with 0 errors and 0 warnings
+[03Oct2026 23:24:58.730] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:24:58.731] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:24:58.781] [Server thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 49.99 ms
+[03Oct2026 23:24:58.785] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#2: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, #c:crops/chilipepper, #c:crops/chilipepper], 3.0]: Unable to set 'carrier: optional_ingredient?' to '3.0' as 'optional_ingredient'! - Failed to read ingredient from 3.0: Could not parse input 3.0 for item stack
+[03Oct2026 23:24:58.789] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 6 ms
+[03Oct2026 23:24:58.792] [Server thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 2.950 ms
+[03Oct2026 23:24:58.829] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1914 recipes
+[03Oct2026 23:24:58.829] [Server thread/INFO] [KubeJS Server/]: Added 12 recipes, removed 0 recipes, modified 0 recipes, with 1 failed recipes taking 98 ms in total
+[03Oct2026 23:24:58.889] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:24:58.892] [Server thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:24:58.892] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Before Mods, data]
+[03Oct2026 23:24:58.892] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Internal, data]
+[03Oct2026 23:24:58.892] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Registries, data]
+[03Oct2026 23:24:58.892] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [After Mods, data]
+[03Oct2026 23:24:58.892] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:24:59.499] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:24:59.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ! KubeJS errors found [1]!
+[03Oct2026 23:24:59.500] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:24:59.544] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:24:59.545] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ! KubeJS errors found [1]!
+[03Oct2026 23:26:12.286] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Oct2026 23:26:12.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[03Oct2026 23:26:12.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[03Oct2026 23:26:12.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[03Oct2026 23:26:40.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 已将1个[红辣椒]给予Dev]
+[03Oct2026 23:26:40.200] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已将1个[红辣椒]给予Dev
+[03Oct2026 23:26:42.185] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Oct2026 23:26:42.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[03Oct2026 23:26:42.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[03Oct2026 23:26:42.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[03Oct2026 23:27:42.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 重新加载中！]
+[03Oct2026 23:27:42.487] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:27:42.489] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 重新加载中！
+[03Oct2026 23:27:42.500] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.001 s
+[03Oct2026 23:27:42.501] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.001 s
+[03Oct2026 23:27:42.501] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:27:42.501] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:27:42.502] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:27:42.502] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.001 s
+[03Oct2026 23:27:42.504] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.002 s
+[03Oct2026 23:27:42.505] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.001 s
+[03Oct2026 23:27:42.506] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.001 s
+[03Oct2026 23:27:42.506] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:27:42.508] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:27:42.508] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:27:42.509] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.023 s with 0 errors and 0 warnings
+[03Oct2026 23:27:42.509] [Server thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:27:42.519] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.0 s
+[03Oct2026 23:27:42.520] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.001 s
+[03Oct2026 23:27:42.520] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:27:42.521] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:27:42.522] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:27:42.522] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:27:42.523] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.001 s
+[03Oct2026 23:27:42.523] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:27:42.524] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.001 s
+[03Oct2026 23:27:42.524] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:27:42.524] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:27:42.524] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:27:42.525] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.013 s with 0 errors and 0 warnings
+[03Oct2026 23:27:42.930] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:27:42.931] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:27:42.981] [Server thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 49.12 ms
+[03Oct2026 23:27:42.986] [Server thread/ERROR] [KubeJS Server/]: server_scripts:pancake.js#2: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_cookery:red_chili, kaleidoscope_cookery:red_chili], 5.0, minecraft:bowl, 300.0, 0.5]: Constructor for kaleidoscope_cookery:pot with 6 arguments not found!
+[03Oct2026 23:27:42.989] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#2: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, #c:crops/chilipepper, #c:crops/chilipepper], 3.0]: Unable to set 'carrier: optional_ingredient?' to '3.0' as 'optional_ingredient'! - Failed to read ingredient from 3.0: Could not parse input 3.0 for item stack
+[03Oct2026 23:27:42.992] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 9 ms
+[03Oct2026 23:27:42.995] [Server thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 3.372 ms
+[03Oct2026 23:27:43.044] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1913 recipes
+[03Oct2026 23:27:43.044] [Server thread/INFO] [KubeJS Server/]: Added 11 recipes, removed 0 recipes, modified 0 recipes, with 2 failed recipes taking 113 ms in total
+[03Oct2026 23:27:43.101] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:27:43.102] [Server thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:27:43.103] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Before Mods, data]
+[03Oct2026 23:27:43.103] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Internal, data]
+[03Oct2026 23:27:43.103] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Registries, data]
+[03Oct2026 23:27:43.103] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [After Mods, data]
+[03Oct2026 23:27:43.103] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:27:43.744] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:27:43.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ! KubeJS errors found [2]!
+[03Oct2026 23:27:43.746] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:27:43.811] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:27:43.812] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ! KubeJS errors found [2]!
+[03Oct2026 23:27:45.686] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Oct2026 23:27:45.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[03Oct2026 23:27:45.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[03Oct2026 23:27:45.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[03Oct2026 23:28:06.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 重新加载中！]
+[03Oct2026 23:28:06.581] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:28:06.584] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 重新加载中！
+[03Oct2026 23:28:06.593] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.002 s
+[03Oct2026 23:28:06.593] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:28:06.593] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:28:06.593] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:28:06.594] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:28:06.594] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.001 s
+[03Oct2026 23:28:06.595] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.001 s
+[03Oct2026 23:28:06.595] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:28:06.595] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:28:06.595] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:28:06.596] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:28:06.596] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:28:06.597] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.016 s with 0 errors and 0 warnings
+[03Oct2026 23:28:06.597] [Server thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:28:06.608] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.001 s
+[03Oct2026 23:28:06.608] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:28:06.609] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:28:06.609] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:28:06.609] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:28:06.609] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:28:06.609] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:28:06.610] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:28:06.610] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:28:06.610] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:28:06.610] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:28:06.610] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:28:06.610] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.01 s with 0 errors and 0 warnings
+[03Oct2026 23:28:06.980] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:28:06.980] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:28:07.027] [Server thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 45.66 ms
+[03Oct2026 23:28:07.028] [Server thread/ERROR] [KubeJS Server/]: server_scripts:pancake.js#2: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_cookery:red_chili, kaleidoscope_cookery:red_chili], 5.0, 300.0]: Unable to set 'carrier: optional_ingredient?' to '5.0' as 'optional_ingredient'! - Failed to read ingredient from 5.0: Could not parse input 5.0 for item stack
+[03Oct2026 23:28:07.031] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#2: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, #c:crops/chilipepper, #c:crops/chilipepper], 3.0]: Unable to set 'carrier: optional_ingredient?' to '3.0' as 'optional_ingredient'! - Failed to read ingredient from 3.0: Could not parse input 3.0 for item stack
+[03Oct2026 23:28:07.034] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 6 ms
+[03Oct2026 23:28:07.036] [Server thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 2.263 ms
+[03Oct2026 23:28:07.067] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1913 recipes
+[03Oct2026 23:28:07.068] [Server thread/INFO] [KubeJS Server/]: Added 11 recipes, removed 0 recipes, modified 0 recipes, with 2 failed recipes taking 88 ms in total
+[03Oct2026 23:28:07.120] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:28:07.122] [Server thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:28:07.122] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Before Mods, data]
+[03Oct2026 23:28:07.122] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Internal, data]
+[03Oct2026 23:28:07.122] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Registries, data]
+[03Oct2026 23:28:07.122] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [After Mods, data]
+[03Oct2026 23:28:07.122] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:28:07.739] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:28:07.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ! KubeJS errors found [2]!
+[03Oct2026 23:28:07.739] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:28:07.783] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:28:07.785] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ! KubeJS errors found [2]!
+[03Oct2026 23:30:07.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 重新加载中！]
+[03Oct2026 23:30:07.254] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:30:07.256] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 重新加载中！
+[03Oct2026 23:30:07.266] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.001 s
+[03Oct2026 23:30:07.266] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:30:07.267] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:30:07.267] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:30:07.267] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:30:07.267] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:30:07.267] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:30:07.268] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:30:07.268] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:30:07.268] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:30:07.269] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:30:07.269] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:30:07.269] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.016 s with 0 errors and 0 warnings
+[03Oct2026 23:30:07.269] [Server thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:30:07.280] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.0 s
+[03Oct2026 23:30:07.281] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:30:07.281] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:30:07.281] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:30:07.282] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:30:07.282] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.001 s
+[03Oct2026 23:30:07.282] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:30:07.282] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:30:07.282] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:30:07.283] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.001 s
+[03Oct2026 23:30:07.283] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:30:07.284] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:30:07.284] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.012 s with 0 errors and 0 warnings
+[03Oct2026 23:30:07.704] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:30:07.704] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:30:07.758] [Server thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 51.76 ms
+[03Oct2026 23:30:07.763] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#2: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, #c:crops/chilipepper, #c:crops/chilipepper], 3.0]: Unable to set 'carrier: optional_ingredient?' to '3.0' as 'optional_ingredient'! - Failed to read ingredient from 3.0: Could not parse input 3.0 for item stack
+[03Oct2026 23:30:07.766] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 7 ms
+[03Oct2026 23:30:07.769] [Server thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 3.428 ms
+[03Oct2026 23:30:07.804] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1914 recipes
+[03Oct2026 23:30:07.804] [Server thread/INFO] [KubeJS Server/]: Added 12 recipes, removed 0 recipes, modified 0 recipes, with 1 failed recipes taking 99 ms in total
+[03Oct2026 23:30:07.882] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:30:07.884] [Server thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:30:07.884] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Before Mods, data]
+[03Oct2026 23:30:07.885] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Internal, data]
+[03Oct2026 23:30:07.885] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Registries, data]
+[03Oct2026 23:30:07.885] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [After Mods, data]
+[03Oct2026 23:30:07.885] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:30:08.495] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:30:08.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ! KubeJS errors found [1]!
+[03Oct2026 23:30:08.496] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:30:08.553] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:30:08.556] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ! KubeJS errors found [1]!
+[03Oct2026 23:30:15.436] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Oct2026 23:30:15.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[03Oct2026 23:30:15.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[03Oct2026 23:30:15.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[03Oct2026 23:30:43.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 重新加载中！]
+[03Oct2026 23:30:43.821] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:30:43.825] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 重新加载中！
+[03Oct2026 23:30:43.834] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.001 s
+[03Oct2026 23:30:43.836] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.001 s
+[03Oct2026 23:30:43.836] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:30:43.836] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:30:43.836] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:30:43.836] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:30:43.837] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.001 s
+[03Oct2026 23:30:43.837] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:30:43.837] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:30:43.838] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:30:43.838] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:30:43.838] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:30:43.839] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.018 s with 0 errors and 0 warnings
+[03Oct2026 23:30:43.839] [Server thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:30:43.850] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.0 s
+[03Oct2026 23:30:43.851] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:30:43.851] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:30:43.851] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:30:43.851] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:30:43.851] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:30:43.851] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:30:43.851] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:30:43.852] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:30:43.852] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:30:43.852] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:30:43.852] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:30:43.853] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.012 s with 0 errors and 0 warnings
+[03Oct2026 23:30:44.228] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:30:44.229] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:30:44.270] [Server thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 40.04 ms
+[03Oct2026 23:30:44.276] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 6 ms
+[03Oct2026 23:30:44.281] [Server thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 3.992 ms
+[03Oct2026 23:30:44.311] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1915 recipes
+[03Oct2026 23:30:44.311] [Server thread/INFO] [KubeJS Server/]: Added 13 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes taking 82 ms in total
+[03Oct2026 23:30:44.370] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:30:44.373] [Server thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:30:44.374] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Before Mods, data]
+[03Oct2026 23:30:44.374] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Internal, data]
+[03Oct2026 23:30:44.374] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Registries, data]
+[03Oct2026 23:30:44.374] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [After Mods, data]
+[03Oct2026 23:30:44.374] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:30:44.979] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:30:44.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Reloaded with no KubeJS errors!
+[03Oct2026 23:30:44.979] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:30:45.021] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:30:45.022] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Reloaded with no KubeJS errors!
+[03Oct2026 23:30:47.986] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Oct2026 23:30:48.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[03Oct2026 23:30:48.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[03Oct2026 23:30:48.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[03Oct2026 23:31:29.436] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Oct2026 23:31:29.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[03Oct2026 23:31:29.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[03Oct2026 23:31:29.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[03Oct2026 23:31:39.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 重新加载中！]
+[03Oct2026 23:31:39.499] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:31:39.503] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 重新加载中！
+[03Oct2026 23:31:39.516] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.002 s
+[03Oct2026 23:31:39.516] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:31:39.517] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.001 s
+[03Oct2026 23:31:39.517] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:31:39.518] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:31:39.518] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.001 s
+[03Oct2026 23:31:39.518] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:31:39.518] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:31:39.518] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:31:39.518] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:31:39.518] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:31:39.518] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:31:39.519] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.02 s with 0 errors and 0 warnings
+[03Oct2026 23:31:39.519] [Server thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:31:39.531] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.0 s
+[03Oct2026 23:31:39.531] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:31:39.531] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:31:39.531] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:31:39.532] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:31:39.532] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:31:39.532] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:31:39.533] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.001 s
+[03Oct2026 23:31:39.533] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:31:39.533] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:31:39.533] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:31:39.534] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:31:39.534] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.012 s with 0 errors and 0 warnings
+[03Oct2026 23:31:39.868] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:31:39.868] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:31:39.916] [Server thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 47.02 ms
+[03Oct2026 23:31:39.920] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#3: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, #c:crops/chilipepper, #c:crops/chilipepper], 3.0, minecraft:bowl]: Unable to set 'carrier: optional_ingredient?' to '3.0' as 'optional_ingredient'! - Failed to read ingredient from 3.0: Could not parse input 3.0 for item stack
+[03Oct2026 23:31:39.923] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 6 ms
+[03Oct2026 23:31:39.927] [Server thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 3.461 ms
+[03Oct2026 23:31:39.988] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1914 recipes
+[03Oct2026 23:31:39.988] [Server thread/INFO] [KubeJS Server/]: Added 12 recipes, removed 0 recipes, modified 0 recipes, with 1 failed recipes taking 119 ms in total
+[03Oct2026 23:31:40.054] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:31:40.056] [Server thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:31:40.057] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Before Mods, data]
+[03Oct2026 23:31:40.057] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Internal, data]
+[03Oct2026 23:31:40.057] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Registries, data]
+[03Oct2026 23:31:40.057] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [After Mods, data]
+[03Oct2026 23:31:40.057] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:31:40.686] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:31:40.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ! KubeJS errors found [1]!
+[03Oct2026 23:31:40.687] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:31:40.751] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:31:40.752] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ! KubeJS errors found [1]!
+[03Oct2026 23:33:22.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 已将1个[红辣椒]给予Dev]
+[03Oct2026 23:33:22.693] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已将1个[红辣椒]给予Dev
+[03Oct2026 23:33:25.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 重新加载中！]
+[03Oct2026 23:33:25.215] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 重新加载中！
+[03Oct2026 23:33:25.217] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:33:25.228] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.001 s
+[03Oct2026 23:33:25.228] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:33:25.228] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:33:25.229] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:33:25.229] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:33:25.229] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:33:25.229] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:33:25.230] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:33:25.230] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:33:25.230] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:33:25.230] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:33:25.231] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.001 s
+[03Oct2026 23:33:25.231] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.015 s with 0 errors and 0 warnings
+[03Oct2026 23:33:25.231] [Server thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:33:25.242] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.0 s
+[03Oct2026 23:33:25.242] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:33:25.242] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:33:25.242] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:33:25.242] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:33:25.242] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:33:25.242] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:33:25.243] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:33:25.243] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:33:25.243] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:33:25.243] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:33:25.243] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:33:25.244] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.01 s with 0 errors and 0 warnings
+[03Oct2026 23:33:25.578] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:33:25.578] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:33:25.623] [Server thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 43.29 ms
+[03Oct2026 23:33:25.626] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#4: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_cookery:red_chili, kaleidoscope_cookery:red_chili], 3.0, minecraft:bowl]: Unable to set 'carrier: optional_ingredient?' to '3.0' as 'optional_ingredient'! - Failed to read ingredient from 3.0: Could not parse input 3.0 for item stack
+[03Oct2026 23:33:25.628] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#18: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_cookery:red_chili, kaleidoscope_cookery:green_chili], 3.0, minecraft:bowl]: Unable to set 'carrier: optional_ingredient?' to '3.0' as 'optional_ingredient'! - Failed to read ingredient from 3.0: Could not parse input 3.0 for item stack
+[03Oct2026 23:33:25.628] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#32: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_cookery:green_chili, kaleidoscope_cookery:red_chili], 3.0, minecraft:bowl]: Unable to set 'carrier: optional_ingredient?' to '3.0' as 'optional_ingredient'! - Failed to read ingredient from 3.0: Could not parse input 3.0 for item stack
+[03Oct2026 23:33:25.629] [Server thread/ERROR] [KubeJS Server/]: server_scripts:spicy_crinkle_cut_fries.js#46: Failed to create a 'kaleidoscope_cookery:pot' recipe from args [kaleidoscope_snack:spicy_crinkle_cut_fries, [kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_snack:potato_chunks, kaleidoscope_cookery:green_chili, kaleidoscope_cookery:green_chili], 3.0, minecraft:bowl]: Unable to set 'carrier: optional_ingredient?' to '3.0' as 'optional_ingredient'! - Failed to read ingredient from 3.0: Could not parse input 3.0 for item stack
+[03Oct2026 23:33:25.632] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 8 ms
+[03Oct2026 23:33:25.635] [Server thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 2.860 ms
+[03Oct2026 23:33:25.665] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1914 recipes
+[03Oct2026 23:33:25.666] [Server thread/INFO] [KubeJS Server/]: Added 12 recipes, removed 0 recipes, modified 0 recipes, with 4 failed recipes taking 87 ms in total
+[03Oct2026 23:33:25.724] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:33:25.726] [Server thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:33:25.727] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Before Mods, data]
+[03Oct2026 23:33:25.727] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Internal, data]
+[03Oct2026 23:33:25.727] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Registries, data]
+[03Oct2026 23:33:25.727] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [After Mods, data]
+[03Oct2026 23:33:25.727] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:33:26.400] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:33:26.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ! KubeJS errors found [4]!
+[03Oct2026 23:33:26.402] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:33:26.447] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:33:26.448] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ! KubeJS errors found [4]!
+[03Oct2026 23:34:37.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 重新加载中！]
+[03Oct2026 23:34:37.747] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts enabled
+[03Oct2026 23:34:37.747] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 重新加载中！
+[03Oct2026 23:34:37.760] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.002 s
+[03Oct2026 23:34:37.760] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:34:37.760] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:34:37.761] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:34:37.761] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:34:37.761] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:34:37.761] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:34:37.761] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:34:37.761] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:34:37.762] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:34:37.763] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.0 s
+[03Oct2026 23:34:37.763] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:34:37.763] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.017 s with 0 errors and 0 warnings
+[03Oct2026 23:34:37.763] [Server thread/INFO] [KubeJS/]: Loaded 14 data packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, data], mod_data, mod/rhino, mod/kaleidoscope_cookery, mod/architectury, mod/neoforge, mod/kubejs, KubeJS Virtual Resource Pack [Internal, data], KubeJS Virtual Resource Pack [Registries, data], KubeJS Virtual Resource Pack [After Mods, data], KubeJS File Resource Pack [data], mod/kaleidoscope_snack, KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:34:37.774] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:cooked_sausage.js in 0.0 s
+[03Oct2026 23:34:37.774] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:grilled_squid.js in 0.0 s
+[03Oct2026 23:34:37.775] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:ground_meat.js in 0.0 s
+[03Oct2026 23:34:37.775] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[03Oct2026 23:34:37.775] [Server thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[03Oct2026 23:34:37.775] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.0 s
+[03Oct2026 23:34:37.775] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:pancake.js in 0.0 s
+[03Oct2026 23:34:37.776] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potato_chunks.js in 0.0 s
+[03Oct2026 23:34:37.777] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:potstickers.js in 0.0 s
+[03Oct2026 23:34:37.777] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage.js in 0.0 s
+[03Oct2026 23:34:37.778] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:sausage_casing.js in 0.001 s
+[03Oct2026 23:34:37.778] [Server thread/INFO] [KubeJS Server/]: Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[03Oct2026 23:34:37.778] [Server thread/INFO] [KubeJS Server/]: Loaded 11/11 KubeJS server scripts in 0.012 s with 0 errors and 0 warnings
+[03Oct2026 23:34:38.113] [Server thread/INFO] [KubeJS Server/]: Processing recipes...
+[03Oct2026 23:34:38.113] [Server thread/INFO] [KubeJS Server/]: Initializing recipe event...
+[03Oct2026 23:34:38.158] [Server thread/INFO] [KubeJS Server/]: Found 1,902 recipes (skipped 0) in 44.05 ms
+[03Oct2026 23:34:38.163] [Server thread/INFO] [KubeJS Server/]: Posted recipe events in 4 ms
+[03Oct2026 23:34:38.166] [Server thread/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 3.399 ms
+[03Oct2026 23:34:38.197] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1915 recipes
+[03Oct2026 23:34:38.198] [Server thread/INFO] [KubeJS Server/]: Added 13 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes taking 84 ms in total
+[03Oct2026 23:34:38.253] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1572 advancements
+[03Oct2026 23:34:38.255] [Server thread/INFO] [com.github.ysbbbbbb.kaleidoscopecookery.KaleidoscopeCookery/]: Successfully loaded millstone bindable data
+[03Oct2026 23:34:38.256] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Before Mods, data]
+[03Oct2026 23:34:38.256] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Internal, data]
+[03Oct2026 23:34:38.257] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Registries, data]
+[03Oct2026 23:34:38.257] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [After Mods, data]
+[03Oct2026 23:34:38.257] [Server thread/INFO] [KubeJS/]: Closed KubeJS Virtual Resource Pack [Last, data]
+[03Oct2026 23:34:38.891] [Server thread/INFO] [KubeJS Server/]: Capturing errors for server scripts disabled
+[03Oct2026 23:34:38.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Reloaded with no KubeJS errors!
+[03Oct2026 23:34:38.892] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[03Oct2026 23:34:38.957] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 142 advancements
+[03Oct2026 23:34:38.958] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Reloaded with no KubeJS errors!
+[03Oct2026 23:35:00.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev取得了进度[绝代双椒]
+[03Oct2026 23:35:00.912] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev取得了进度[绝代双椒]
+[03Oct2026 23:35:00.954] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 144 advancements
+[03Oct2026 23:35:25.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 已将自己的游戏模式设置为生存模式]
+[03Oct2026 23:35:25.946] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已将自己的游戏模式设置为生存模式
+[03Oct2026 23:35:26.986] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Oct2026 23:35:27.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[03Oct2026 23:35:27.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[03Oct2026 23:35:27.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[03Oct2026 23:35:35.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 已将自己的游戏模式设置为创造模式]
+[03Oct2026 23:35:35.099] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已将自己的游戏模式设置为创造模式
+[03Oct2026 23:35:58.936] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Oct2026 23:35:58.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[03Oct2026 23:35:58.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[03Oct2026 23:35:58.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end

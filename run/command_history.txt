@@ -1,0 +1,14 @@
+/time set 10000
+/reload
+/give @p kaleidoscope_snack:jianbing
+/reload
+/give @p kaleidoscope_snack:sausage_casing
+/reload
+/kubejs hand
+/reload
+/kubejs dump recipes
+/reload
+/give @s kaleidoscope_cookery:red_chili
+/reload
+/give @s kaleidoscope_cookery:red_chili
+/reload

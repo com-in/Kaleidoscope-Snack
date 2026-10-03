@@ -1,0 +1,45 @@
+[23:34:37] [INIT] KubeJS 2101.7.2-build.321; MC 2101 NeoForge
+[23:34:37] [INIT] Loaded plugins:
+[23:34:37] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[23:34:37] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[23:34:37] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[23:34:37] [INIT] - com.github.ysbbbbbb.kaleidoscopecookery.compat.kubejs.ModKubeJSPlugin
+[23:34:37] [INFO] Loaded script server_scripts:cooked_sausage.js in 0.002 s
+[23:34:37] [INFO] Loaded script server_scripts:grilled_squid.js in 0.0 s
+[23:34:37] [INFO] Loaded script server_scripts:ground_meat.js in 0.0 s
+[23:34:37] [INFO] Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[23:34:37] [INFO] server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[23:34:37] [INFO] Loaded script server_scripts:main.js in 0.0 s
+[23:34:37] [INFO] Loaded script server_scripts:pancake.js in 0.0 s
+[23:34:37] [INFO] Loaded script server_scripts:potato_chunks.js in 0.0 s
+[23:34:37] [INFO] Loaded script server_scripts:potstickers.js in 0.0 s
+[23:34:37] [INFO] Loaded script server_scripts:sausage.js in 0.0 s
+[23:34:37] [INFO] Loaded script server_scripts:sausage_casing.js in 0.0 s
+[23:34:37] [INFO] Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[23:34:37] [INFO] Loaded 11/11 KubeJS server scripts in 0.017 s with 0 errors and 0 warnings
+[23:34:37] [INIT] KubeJS 2101.7.2-build.321; MC 2101 NeoForge
+[23:34:37] [INIT] Loaded plugins:
+[23:34:37] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[23:34:37] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[23:34:37] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[23:34:37] [INIT] - com.github.ysbbbbbb.kaleidoscopecookery.compat.kubejs.ModKubeJSPlugin
+[23:34:37] [INFO] Loaded script server_scripts:cooked_sausage.js in 0.0 s
+[23:34:37] [INFO] Loaded script server_scripts:grilled_squid.js in 0.0 s
+[23:34:37] [INFO] Loaded script server_scripts:ground_meat.js in 0.0 s
+[23:34:37] [INFO] Loaded script server_scripts:kaleidoscope_cookery.js in 0.0 s
+[23:34:37] [INFO] server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[23:34:37] [INFO] Loaded script server_scripts:main.js in 0.0 s
+[23:34:37] [INFO] Loaded script server_scripts:pancake.js in 0.0 s
+[23:34:37] [INFO] Loaded script server_scripts:potato_chunks.js in 0.0 s
+[23:34:37] [INFO] Loaded script server_scripts:potstickers.js in 0.0 s
+[23:34:37] [INFO] Loaded script server_scripts:sausage.js in 0.0 s
+[23:34:37] [INFO] Loaded script server_scripts:sausage_casing.js in 0.001 s
+[23:34:37] [INFO] Loaded script server_scripts:spicy_crinkle_cut_fries.js in 0.0 s
+[23:34:37] [INFO] Loaded 11/11 KubeJS server scripts in 0.012 s with 0 errors and 0 warnings
+[23:34:38] [INFO] Processing recipes...
+[23:34:38] [INFO] Initializing recipe event...
+[23:34:38] [INFO] Found 1,902 recipes (skipped 0) in 44.05 ms
+[23:34:38] [INFO] Posted recipe events in 4 ms
+[23:34:38] [INFO] KubeJS modifications to recipe manager finished in 3.399 ms
+[23:34:38] [INFO] Added 13 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes taking 84 ms in total
+[23:34:38] [INFO] Server resource reload complete!
