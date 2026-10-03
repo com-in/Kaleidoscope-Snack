@@ -185,7 +185,6 @@ function serialize(entry) {
           type: key,
           ingredient: toIngredient(a[1]),
           result: toItemStack(a[0]),
-          count: toItemStack(a[0]).count,
         },
       };
 
