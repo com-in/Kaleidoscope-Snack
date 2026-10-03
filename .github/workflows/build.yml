@@ -14,14 +14,24 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Java
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           distribution: temurin
-          java-version: '25'
+          java-version: '21'
           cache: gradle
+
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+
+      # 读取 run/kubejs/server_scripts/**.js，生成静态原生配方 JSON
+      # 生成结果落地到 src/main/resources/data/kaleidoscope_snack/recipe/
+      - name: 迁移 KubeJS 配方到原生 JSON
+        run: node tools/kubejs-to-datapack.mjs
 
       - name: Make Gradle executable
         run: chmod +x gradlew
@@ -44,13 +54,13 @@ jobs:
           echo "JAR: $JAR"
 
           echo "配方文件："
-          jar tf "$JAR" | grep "data/kaleidoscope_snack/recipes/" || {
-            echo "错误：JAR 中没有找到配方！"
+          jar tf "$JAR" | grep "data/kaleidoscope_snack/recipe/" || {
+            echo "错误：JAR 中没有找到原生配方（data/kaleidoscope_snack/recipe/）！"
             exit 1
           }
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: kaleidoscope_snack
           path: build/libs/*.jar

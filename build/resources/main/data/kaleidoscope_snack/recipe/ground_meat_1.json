@@ -1,0 +1,12 @@
+{
+  "type": "kaleidoscope_cookery:chopping_board",
+  "ingredient": {
+    "item": "kaleidoscope_cookery:raw_pork_belly"
+  },
+  "model_id": "kaleidoscope_cookery:raw_pork_belly",
+  "cut_count": 4,
+  "result": {
+    "id": "kaleidoscope_snack:ground_meat",
+    "count": 3
+  }
+}

@@ -1,0 +1,23 @@
+--------------------------------------------------------------------------------
+
+Command-Line:
+ - C:\Users\Ctoy\.mcreator\gradle\jdks\eclipse_adoptium-21-amd64-windows.2\bin\java.exe
+ - -jar
+ - C:\Users\Ctoy\.gradle\caches\modules-2\files-2.1\net.neoforged.installertools\installertools\4.0.12\94b6e47c3f51f8ca40f8c54720369a952b821e95\installertools-4.0.12-fatjar.jar
+ - --task
+ - PROCESS_MINECRAFT_JAR
+ - --input
+ - C:\Users\Ctoy\.gradle\caches\neoformruntime\intermediate_results\copyUnpatchedClasses_f4825d7d68ba8df2c57569d21a30e2c4761f4e66_output.jar
+ - --output
+ - ./output.jar
+ - --no-mod-manifest
+ - --access-transformer
+ - ats\accesstransformer.cfg
+--------------------------------------------------------------------------------
+
+Task: PROCESS_MINECRAFT_JAR
+load access transformers [43ms]
+load input zip [572ms]
+apply dev transforms [488ms]
+write output file [2433ms]
+overall work [3563ms]

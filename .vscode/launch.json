@@ -1,0 +1,49 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - kaleidoscope_snack",
+        "order": 0
+      },
+      "projectName": "kaleidoscope_snack",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@E:\\MCreatorWorkspaces\\kaleidoscope_snack\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@E:\\MCreatorWorkspaces\\kaleidoscope_snack\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmcreator%%E:\\MCreatorWorkspaces\\kaleidoscope_snack\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - kaleidoscope_snack",
+        "order": 1
+      },
+      "projectName": "kaleidoscope_snack",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@E:\\MCreatorWorkspaces\\kaleidoscope_snack\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@E:\\MCreatorWorkspaces\\kaleidoscope_snack\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmcreator%%E:\\MCreatorWorkspaces\\kaleidoscope_snack\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}

@@ -18,10 +18,10 @@ ServerEvents.recipes(event => {
                 item: 'kaleidoscope_snack:potato_chunks'
             },
             {
-                tag: 'c:crops/chilipepper'
+                item: 'kaleidoscope_cookery:red_chili'
             },
             {
-                tag: 'c:crops/chilipepper'
+                item: 'kaleidoscope_cookery:red_chili'
             }
         ],
 

@@ -1,0 +1,13 @@
+{
+  "type": "kaleidoscope_cookery:stockpot",
+  "soup_base": "minecraft:water",
+  "ingredients": [
+    {
+      "item": "kaleidoscope_cookery:raw_cow_offal"
+    }
+  ],
+  "result": {
+    "id": "kaleidoscope_snack:sausage_casing",
+    "count": 2
+  }
+}

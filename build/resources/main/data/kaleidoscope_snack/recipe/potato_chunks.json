@@ -1,0 +1,12 @@
+{
+  "type": "kaleidoscope_cookery:chopping_board",
+  "ingredient": {
+    "item": "minecraft:potato"
+  },
+  "model_id": "kaleidoscope_snack:potato",
+  "cut_count": 4,
+  "result": {
+    "id": "kaleidoscope_snack:potato_chunks",
+    "count": 5
+  }
+}

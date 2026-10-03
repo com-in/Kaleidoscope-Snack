@@ -4,17 +4,11 @@
   "workspacePanelSortAscending": true,
   "projectBrowserState": {
     "expandedPaths": [
-      "[, 森罗物语：小吃]",
-      "[, 森罗物语：小吃, Resources (Gradle)]",
-      "[, 森罗物语：小吃, Resources (Gradle), E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets]",
-      "[, 森罗物语：小吃, Resources (Gradle), E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack]",
-      "[, 森罗物语：小吃, Resources (Gradle), E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack\\models]",
-      "[, 森罗物语：小吃, Resources (Gradle), E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack\\models, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack\\models\\item]",
-      "[, 森罗物语：小吃, Resources (Gradle), E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack\\textures]",
-      "[, 森罗物语：小吃, Resources (Gradle), E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack\\textures, E:\\MCreatorWorkspaces\\kaleidoscope_snack\\src\\main\\resources\\assets\\kaleidoscope_snack\\textures\\item]"
+      "[, 森罗物语：小吃]"
     ]
   },
   "leftDockState": {
+    "expandedDock": "project_browser",
     "dockSizes": {
       "project_browser": 280,
       "local_history": 280

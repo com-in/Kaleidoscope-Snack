@@ -1,0 +1,22 @@
+--------------------------------------------------------------------------------
+
+Command-Line:
+ - C:\Users\Ctoy\.mcreator\gradle\jdks\eclipse_adoptium-21-amd64-windows.2\bin\java.exe
+ - -jar
+ - C:\Users\Ctoy\.gradle\caches\neoformruntime\artifacts\net\neoforged\installertools\binarypatcher\2.1.2\binarypatcher-2.1.2-fatjar.jar
+ - --clean
+ - C:\Users\Ctoy\.gradle\caches\neoformruntime\intermediate_results\rename_c5f4d26a83339987ab34050293dde54ca9e2cc79_output.jar
+ - --output
+ - ./output.jar
+ - --apply
+ - ./joined.lzma
+--------------------------------------------------------------------------------
+
+Applying: 
+  Clean:     C:\Users\Ctoy\.gradle\caches\neoformruntime\intermediate_results\rename_c5f4d26a83339987ab34050293dde54ca9e2cc79_output.jar
+  Output:    E:\MCreatorWorkspaces\kaleidoscope_snack\build\tmp\neoformruntime\20261004-013823_binaryPatch\.\output.jar
+  KeepData:  false
+  Unpatched: false
+  Pack200:   false
+  Legacy:    false
+Loading patches file: .\joined.lzma

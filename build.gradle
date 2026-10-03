@@ -4,7 +4,7 @@ plugins {
 }
 
 version = '1.0'
-base.archivesName = "modid"
+base.archivesName = "kaleidoscope_snack"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
