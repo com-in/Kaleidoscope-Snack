@@ -1,14 +1,14 @@
 {
   "mod_elements": [
     {
-      "name": "Jianbing",
+      "name": "Pancake",
       "type": "item",
       "compiles": true,
       "locked_code": false,
       "registry_name": "pancake",
       "metadata": {
         "files": [
-          "src/main/java/kaleidoscopesnack/item/JianbingItem.java",
+          "src/main/java/kaleidoscopesnack/item/PancakeItem.java",
           "src/main/resources/assets/kaleidoscope_snack/models/item/pancake.json"
         ]
       },
@@ -191,6 +191,20 @@
         ]
       },
       "path": "~/Item"
+    },
+    {
+      "name": "CrispyPorkBelly",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crispy_pork_belly",
+      "metadata": {
+        "files": [
+          "src/main/java/kaleidoscopesnack/item/CrispyPorkBellyItem.java",
+          "src/main/resources/assets/kaleidoscope_snack/models/item/crispy_pork_belly.json"
+        ]
+      },
+      "path": "~/Item"
     }
   ],
   "variable_elements": [],
@@ -204,7 +218,7 @@
   },
   "tab_element_order": {
     "CUSTOM:KaleidoscopeSnack": [
-      "Jianbing",
+      "Pancake",
       "GrilledSquid",
       "Potstickers",
       "CookedSausage",
@@ -213,7 +227,8 @@
       "SausageCasing",
       "GroundMeat",
       "Squid",
-      "PotatoChunks"
+      "PotatoChunks",
+      "CrispyPorkBelly"
     ]
   },
   "language_map": {
@@ -228,7 +243,8 @@
       "item.kaleidoscope_snack.sausage_casing": "Sausage Casing",
       "item.kaleidoscope_snack.cooked_sausage": "Cooked Sausage",
       "item.kaleidoscope_snack.potato_chunks": "Potato Chunks",
-      "item.kaleidoscope_snack.spicy_crinkle_cut_fries": "Spicy Crinkle Cut Fries"
+      "item.kaleidoscope_snack.spicy_crinkle_cut_fries": "Spicy Crinkle Cut Fries",
+      "item.kaleidoscope_snack.crispy_pork_belly": "Crispy Pork Belly"
     },
     "zh_cn": {
       "item_group.kaleidoscope_snack.kaleidoscope_snack": "森罗物语：小吃",
@@ -241,7 +257,8 @@
       "item.kaleidoscope_snack.sausage_casing": "肠衣",
       "item.kaleidoscope_snack.cooked_sausage": "烤肠",
       "item.kaleidoscope_snack.potato_chunks": "土豆块",
-      "item.kaleidoscope_snack.spicy_crinkle_cut_fries": "狼牙土豆"
+      "item.kaleidoscope_snack.spicy_crinkle_cut_fries": "狼牙土豆",
+      "item.kaleidoscope_snack.crispy_pork_belly": "脆皮五花肉"
     }
   },
   "metadata": {

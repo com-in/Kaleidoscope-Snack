@@ -1,6 +1,7 @@
 {
-  "parent": "item/generated",
+  "parent": "kaleidoscope_snack:custom/grilled_squid",
   "textures": {
-    "layer0": "kaleidoscope_snack:item/grilled_squid"
+    "layer0": "kaleidoscope_snack:block/grilled_squid",
+    "particle": "kaleidoscope_snack:item/grilled_squid"
   }
 }

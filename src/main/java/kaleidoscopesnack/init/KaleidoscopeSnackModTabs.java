@@ -27,5 +27,6 @@ public class KaleidoscopeSnackModTabs {
 				tabData.accept(KaleidoscopeSnackModItems.GROUND_MEAT.get());
 				tabData.accept(KaleidoscopeSnackModItems.RAW_SQUID.get());
 				tabData.accept(KaleidoscopeSnackModItems.POTATO_CHUNKS.get());
+				tabData.accept(KaleidoscopeSnackModItems.CRISPY_PORK_BELLY.get());
 			}).build());
 }

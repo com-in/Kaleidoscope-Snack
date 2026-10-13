@@ -1,6 +1,7 @@
 {
-  "parent": "item/generated",
+  "parent": "kaleidoscope_snack:custom/ground_meat",
   "textures": {
-    "layer0": "kaleidoscope_snack:item/ground_meat"
+    "layer0": "kaleidoscope_snack:block/ground_meat",
+    "particle": "kaleidoscope_snack:item/ground_meat"
   }
 }

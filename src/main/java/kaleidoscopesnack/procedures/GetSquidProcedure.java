@@ -1,6 +1,6 @@
 package kaleidoscopesnack.procedures;
 
-import net.neoforged.neoforge.event.entity.living.LivingDeathEvent;
+import  net.neoforged.neoforge.event.entity.living.LivingDeathEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.Event;

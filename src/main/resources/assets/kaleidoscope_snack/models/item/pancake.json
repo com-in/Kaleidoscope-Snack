@@ -1,6 +1,7 @@
 {
-  "parent": "item/generated",
+  "parent": "kaleidoscope_snack:custom/pancake",
   "textures": {
-    "layer0": "kaleidoscope_snack:item/pancake"
+    "layer0": "kaleidoscope_snack:block/pancake",
+    "particle": "kaleidoscope_snack:item/pancake"
   }
 }

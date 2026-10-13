@@ -1,6 +1,7 @@
 {
-  "parent": "item/generated",
+  "parent": "kaleidoscope_snack:custom/spicy_crinkle_cut_fries",
   "textures": {
-    "layer0": "kaleidoscope_snack:item/spicy_crinkle_cut_fries"
+    "layer0": "kaleidoscope_snack:block/spicy_crinkle_cut_fries",
+    "particle": "kaleidoscope_snack:item/spicy_crinkle_cut_fries"
   }
 }

@@ -2,9 +2,9 @@
   "_fv": 89,
   "_type": "item",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "squid",
-    "customModelName": "Normal",
+    "customModelName": "raw_squid",
     "guiTexture": "",
     "customProperties": {},
     "states": [],

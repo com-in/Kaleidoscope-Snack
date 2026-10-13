@@ -8,8 +8,8 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 
-public class JianbingItem extends Item {
-	public JianbingItem() {
+public class PancakeItem extends Item {
+	public PancakeItem() {
 		super(new Item.Properties().food((new FoodProperties.Builder()).nutrition(8).saturationModifier(0.8f).alwaysEdible().build()));
 	}
 

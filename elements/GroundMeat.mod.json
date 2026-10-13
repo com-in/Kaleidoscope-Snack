@@ -2,9 +2,9 @@
   "_fv": 89,
   "_type": "item",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "ground_meat",
-    "customModelName": "Normal",
+    "customModelName": "ground_meat",
     "guiTexture": "",
     "customProperties": {},
     "states": [],

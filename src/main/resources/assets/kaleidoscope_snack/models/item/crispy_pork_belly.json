@@ -1,0 +1,7 @@
+{
+  "parent": "kaleidoscope_snack:custom/crispy_pork_belly",
+  "textures": {
+    "layer0": "kaleidoscope_snack:block/crispy_pork_belly",
+    "particle": "kaleidoscope_snack:item/crispy_pork_belly"
+  }
+}

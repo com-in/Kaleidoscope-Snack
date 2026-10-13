@@ -2,9 +2,9 @@
   "_fv": 89,
   "_type": "item",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "grilled_squid",
-    "customModelName": "Normal",
+    "customModelName": "grilled_squid",
     "guiTexture": "",
     "customProperties": {},
     "states": [],

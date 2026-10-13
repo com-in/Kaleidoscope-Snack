@@ -2,9 +2,9 @@
   "_fv": 89,
   "_type": "item",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "potstickers",
-    "customModelName": "Normal",
+    "customModelName": "potstickers",
     "guiTexture": "",
     "customProperties": {},
     "states": [],

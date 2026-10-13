@@ -1,6 +1,7 @@
 {
-  "parent": "item/generated",
+  "parent": "kaleidoscope_snack:custom/cooked_sausage",
   "textures": {
-    "layer0": "kaleidoscope_snack:item/cooked_sausage"
+    "layer0": "kaleidoscope_snack:block/cooked_sausage",
+    "particle": "kaleidoscope_snack:item/cooked_sausage"
   }
 }

@@ -1,6 +1,7 @@
 {
-  "parent": "item/generated",
+  "parent": "kaleidoscope_snack:custom/potstickers",
   "textures": {
-    "layer0": "kaleidoscope_snack:item/potstickers"
+    "layer0": "kaleidoscope_snack:block/potstickers",
+    "particle": "kaleidoscope_snack:item/potstickers"
   }
 }

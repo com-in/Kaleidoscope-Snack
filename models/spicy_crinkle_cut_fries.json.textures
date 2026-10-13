@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "layer0": "spicy_crinkle_cut_fries"
+      }
+    }
+  }
+}

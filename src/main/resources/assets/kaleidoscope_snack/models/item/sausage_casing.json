@@ -1,6 +1,7 @@
 {
-  "parent": "item/generated",
+  "parent": "kaleidoscope_snack:custom/sausage_casing",
   "textures": {
-    "layer0": "kaleidoscope_snack:item/sausage_casing"
+    "layer0": "kaleidoscope_snack:block/sausage_casing",
+    "particle": "kaleidoscope_snack:item/sausage_casing"
   }
 }
