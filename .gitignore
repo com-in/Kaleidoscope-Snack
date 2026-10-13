@@ -1,0 +1,32 @@
+# Gradle build output / caches
+build/
+.gradle/
+
+# IDE metadata
+.idea/
+.vscode/
+.eclipse/
+.settings/
+.classpath
+.project
+*.iml
+
+# MCreator local workspace cache (thumbnails, local backups)
+.mcreator/
+
+# Dev run directory (test worlds, logs, dev mods)
+run/
+logs/
+*.log
+
+# Local archives / backups (texture originals, snapshots).
+# Remove this line if you want the archive folders committed.
+hd_texture_backup/
+
+# Local assistant workspace data
+.workbuddy/
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store
