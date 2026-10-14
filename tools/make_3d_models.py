@@ -3,7 +3,7 @@ Convert all kaleidoscope_snack items from builtin "item/generated" models to
 custom JSON 3D models (flat double-sided planes), so that high-resolution
 textures (512x512) display correctly and MCreator recognizes the setup.
 
-What this script writes (all 11 items):
+What this script writes (all 12 items):
   1. <workspace>/models/<registry>.json            custom model (MCreator model
                                                    resource, self-contained)
   2. <workspace>/models/<registry>.json.textures   MCreator texture mapping
@@ -58,6 +58,7 @@ ITEMS = {
     "PotatoChunks": ("potato_chunks", "potato_chunks"),
     "SpicyCrinkleCutFries": ("spicy_crinkle_cut_fries", "spicy_crinkle_cut_fries"),
     "CrispyPorkBelly": ("crispy_pork_belly", "crispy_pork_belly"),
+    "GrilledColdNoodles": ("grilled_cold_noodles", "grilled_cold_noodles"),
 }
 
 # display transforms copied verbatim from the vanilla 1.21.1
@@ -223,9 +224,14 @@ def main() -> int:
         elem_path = ELEMENTS_DIR / f"{stem}.mod.json"
         data = json.loads(elem_path.read_text(encoding="utf-8"))
         defn = data["definition"]
-        old = (defn["renderType"], defn["customModelName"])
+        old = (defn.get("renderType"), defn.get("customModelName"))
         defn["renderType"] = 1          # Model.Type.JSON
-        defn["customModelName"] = registry
+        # keep the model name as-is when it already references this model
+        # (e.g. "potstickers:default" written by MCreator's editor);
+        # otherwise point it at the registry name.
+        cur = str(defn.get("customModelName", ""))
+        if not (cur == registry or cur.startswith(registry + ":")):
+            defn["customModelName"] = registry
         if not dry:
             elem_path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
         written[0] += 1

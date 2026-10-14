@@ -25,6 +25,7 @@ public class KaleidoscopeSnackModItems {
 	public static final DeferredItem<Item> POTATO_CHUNKS;
 	public static final DeferredItem<Item> SPICY_CRINKLE_CUT_FRIES;
 	public static final DeferredItem<Item> CRISPY_PORK_BELLY;
+	public static final DeferredItem<Item> GRILLED_COLD_NOODLES;
 	static {
 		PANCAKE = REGISTRY.register("pancake", PancakeItem::new);
 		RAW_SQUID = REGISTRY.register("raw_squid", SquidItem::new);
@@ -37,6 +38,7 @@ public class KaleidoscopeSnackModItems {
 		POTATO_CHUNKS = REGISTRY.register("potato_chunks", PotatoChunksItem::new);
 		SPICY_CRINKLE_CUT_FRIES = REGISTRY.register("spicy_crinkle_cut_fries", SpicyCrinkleCutFriesItem::new);
 		CRISPY_PORK_BELLY = REGISTRY.register("crispy_pork_belly", CrispyPorkBellyItem::new);
+		GRILLED_COLD_NOODLES = REGISTRY.register("grilled_cold_noodles", GrilledColdNoodlesItem::new);
 	}
 	// Start of user code block custom items
 	// End of user code block custom items

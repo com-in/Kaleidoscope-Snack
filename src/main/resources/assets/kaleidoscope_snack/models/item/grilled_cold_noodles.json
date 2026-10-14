@@ -1,0 +1,7 @@
+{
+  "parent": "kaleidoscope_snack:custom/grilled_cold_noodles",
+  "textures": {
+    "layer0": "kaleidoscope_snack:block/grilled_cold_noodles",
+    "particle": "kaleidoscope_snack:item/grilled_cold_noodles"
+  }
+}

@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 1,
     "texture": "potstickers",
-    "customModelName": "potstickers",
+    "customModelName": "potstickers:default",
     "guiTexture": "",
     "customProperties": {},
     "states": [],

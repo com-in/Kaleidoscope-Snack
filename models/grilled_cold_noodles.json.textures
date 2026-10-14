@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "layer0": "grilled_cold_noodles"
+      }
+    }
+  }
+}
