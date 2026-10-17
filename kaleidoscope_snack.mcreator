@@ -297,6 +297,10 @@
       {
         "name": "Procedure",
         "children": []
+      },
+      {
+        "name": "Effect",
+        "children": []
       }
     ]
   },
